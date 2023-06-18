@@ -1,7 +1,7 @@
 <template>
   <div class="bg-default">
     <the-app-header />
-    <div class="px-20">
+    <div class="md:px-20 px-4">
       <slot />
     </div>
     <the-app-footer />

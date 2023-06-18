@@ -2,35 +2,77 @@
 const linkItems = [
   {
     title: 'サービスについて',
+    subTitle: 'Service',
     to: '',
   },
   {
     title: 'ニュース',
+    subTitle: 'News',
     to: '',
   },
   {
     title: '会社情報',
+    subTitle: 'About us',
     to: '',
   },
   {
     title: 'お問い合わせ',
+    subTitle: 'Contact',
     to: '',
   },
 ];
+
+const isOpen = ref<boolean>(false);
+
+const handleClick = () => {
+  isOpen.value = !isOpen.value;
+};
 </script>
 
 <template>
-  <div class="w-full h-30 p-8 flex items-center justify-between">
+  <div
+    :class="{
+      'w-full md:h-30 md:p-8 p-4 flex items-center justify-between': true,
+      'bg-primary': isOpen,
+    }"
+  >
     <nuxt-link to="/">
-      <div class="flex items-center gap-x-4">
-        <the-brand-logo class="h-10 w-10" />
-        <the-brand-title />
+      <div :class="{ 'flex items-center gap-x-4': true, 'text-white': isOpen }">
+        <the-brand-logo
+          class="h-10 w-10"
+          :color="isOpen ? 'white' : 'primary'"
+        />
+        <the-brand-title :color="isOpen ? 'white' : 'primary'" />
       </div>
     </nuxt-link>
-    <div class="flex gap-x-12 items-center text-primary">
-      <nuxt-link v-for="(item, i) in linkItems" :key="i" :to="item.to" class="">
+    <div class="gap-x-12 items-center text-primary lg:flex hidden">
+      <nuxt-link v-for="(item, i) in linkItems" :key="i" :to="item.to">
         {{ item.title }}
       </nuxt-link>
     </div>
+    <div class="lg:hidden">
+      <button class="h-10 w-10" @click="handleClick">
+        <icons-the-bar3-icon class="text-primary" v-show="!isOpen" />
+        <icons-the-close-icon class="text-white fill-white" v-show="isOpen" />
+      </button>
+    </div>
+  </div>
+
+  <div
+    v-show="isOpen"
+    class="absolute w-full bg-primary text-white flex flex-col h-screen p-8 gap-10 lg:hidden"
+  >
+    <nuxt-link to="/">
+      <p class="text-xl">トップページ</p>
+      <span class="text-xs"> Top </span>
+    </nuxt-link>
+    <nuxt-link v-for="(item, i) in linkItems" :key="i" :to="item.to">
+      <p class="text-xl">
+        {{ item.title }}
+      </p>
+      <span class="text-xs">
+        {{ item.subTitle }}
+      </span>
+    </nuxt-link>
   </div>
 </template>
