@@ -37,9 +37,9 @@ const newsItems = [
     </div>
 
     <div
-      class="bg-white rounded-3xl w-full flex items-center py-20 px-24 gap-x-20"
+      class="bg-white rounded-3xl w-full items-center py-20 px-24 gap-x-20 gap-y-10 flex lg:flex-row sm:flex-col"
     >
-      <div class="min-w-min whitespace-nowrap">
+      <div class="w-full text-left whitespace-nowrap">
         <h2 class="text-primary text-6xl mb-2">Service</h2>
         <p>サービスについて</p>
       </div>
@@ -47,7 +47,7 @@ const newsItems = [
         <p class="leading-10">
           ライブ配信で全国の「ふるさと」を感じながら新しい購買体験が可能となるオンラインマルシェサービス「ふるマル」を中心としたシステム開発事業・販路開拓事業・フードロス対策事業など生産者・消費者双方に寄り添ったサービスの展開を行っています。
         </p>
-        <div class="flex justify-end">
+        <div class="flex lg:justify-end sm:justify-center">
           <nuxt-link
             class="block max-w-max bg-primary text-white rounded-full py-3 px-10 text-l hover:bg-opacity-80"
           >
@@ -65,7 +65,7 @@ const newsItems = [
         <p>ニュース</p>
       </div>
 
-      <div class="w-full grid grid-cols-3 gap-8">
+      <div class="w-full gap-8 grid lg:grid-cols-3 sm:grid-cols-1">
         <the-news-item
           v-for="(item, i) in newsItems"
           :key="i"
