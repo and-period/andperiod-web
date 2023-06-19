@@ -10,6 +10,9 @@ Make sure to install the dependencies:
 # npm
 npm install
 
+# npm version change
+npm install -g yarn
+
 # pnpm
 pnpm install
 
