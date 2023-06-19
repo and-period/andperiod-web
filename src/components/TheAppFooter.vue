@@ -6,7 +6,7 @@ const linkItems = [
   },
   {
     title: 'ニュース',
-    to: '',
+    to: '/news',
   },
   {
     title: '会社情報',

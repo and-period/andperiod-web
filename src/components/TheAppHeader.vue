@@ -8,7 +8,7 @@ const linkItems = [
   {
     title: 'ニュース',
     subTitle: 'News',
-    to: '',
+    to: '/news',
   },
   {
     title: '会社情報',

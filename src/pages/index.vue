@@ -78,6 +78,7 @@ const newsItems = [
 
       <nuxt-link
         class="block max-w-max bg-primary text-white rounded-full py-3 px-10 text-lg hover:bg-opacity-80"
+        to="/news"
       >
         View more +
       </nuxt-link>
