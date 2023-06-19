@@ -32,7 +32,7 @@ const handleClick = () => {
 <template>
   <div
     :class="{
-      'w-full md:h-30 md:p-8 p-4 flex items-center justify-between': true,
+      'w-full md:h-30 md:p-8 p-4 flex items-center justify-between relative': true,
       'bg-primary': isOpen,
     }"
   >
@@ -45,7 +45,12 @@ const handleClick = () => {
         <the-brand-title :color="isOpen ? 'white' : 'primary'" />
       </div>
     </nuxt-link>
-    <div class="gap-x-12 items-center text-primary lg:flex hidden">
+    <div
+      :class="{
+        'gap-x-12 items-center text-primary lg:flex hidden': true,
+        'text-white': isOpen,
+      }"
+    >
       <nuxt-link v-for="(item, i) in linkItems" :key="i" :to="item.to">
         {{ item.title }}
       </nuxt-link>
@@ -60,7 +65,7 @@ const handleClick = () => {
 
   <div
     v-show="isOpen"
-    class="absolute w-full bg-primary text-white flex flex-col h-screen p-8 gap-10 lg:hidden"
+    class="absolute top-20 w-full bg-primary text-white flex flex-col h-[calc(100vh_-_80px)] p-8 gap-10 lg:hidden"
   >
     <nuxt-link to="/">
       <p class="text-xl">トップページ</p>
