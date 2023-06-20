@@ -14,7 +14,7 @@ const linkItems = [
   },
   {
     title: 'お問い合わせ',
-    to: '',
+    to: '/contact',
   },
   {
     title: 'プライバシーポリシー',

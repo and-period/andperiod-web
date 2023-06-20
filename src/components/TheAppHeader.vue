@@ -18,7 +18,7 @@ const linkItems = [
   {
     title: 'お問い合わせ',
     subTitle: 'Contact',
-    to: '',
+    to: '/contact',
   },
 ];
 
