@@ -37,7 +37,7 @@ const nextPath = computed(() => {
 
 <template>
   <ContentDoc v-slot="{ doc }">
-    <div class="flex items-center text-primary gap-4 mb-10">
+    <div class="flex items-center text-primary gap-4 my-10">
       <div class="text-2xl font-bold">
         {{ doc.publishAt }}
       </div>
@@ -45,7 +45,9 @@ const nextPath = computed(() => {
         {{ doc.tag }}
       </div>
     </div>
+
     <ContentRenderer class="prose prose-stone max-w-none" :value="doc" />
+
     <div class="flex justify-center mt-10 gap-[120px]">
       <nuxt-link
         :to="prevPath"
