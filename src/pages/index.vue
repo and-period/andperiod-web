@@ -22,6 +22,10 @@ const newsItems = [
       '全国の生産者が紹介する商品をオンラインで購入できるライブコマースサービス「ふるマル」をリリースしました。',
   },
 ];
+
+const { data } = await useAsyncData('index', () => {
+  return queryContent('news').sort({ publishAt: 1 }).limit(3).find();
+});
 </script>
 
 <template>
@@ -66,14 +70,14 @@ const newsItems = [
       </div>
 
       <div class="w-full gap-8 grid lg:grid-cols-3 grid-cols-1">
-        <the-news-item
-          v-for="(item, i) in newsItems"
-          :key="i"
-          :img-src="item.imgSrc"
-          :tag="item.tag"
-          :title="item.title"
-          :publish-at="item.publishAt"
-        />
+        <nuxt-link v-for="(item, i) in data" :key="i" :to="item._path">
+          <the-news-item
+            :img-src="item.thumbnailUrl"
+            :tag="item.tag"
+            :title="item.title"
+            :publish-at="item.publishAt"
+          />
+        </nuxt-link>
       </div>
 
       <nuxt-link
