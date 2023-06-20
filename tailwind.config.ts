@@ -9,6 +9,19 @@ export default <Partial<Config>>{
         white: '#FFFFFF',
         primary: '#64C4D7',
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            h1: {
+              'font-size': '24px',
+              'font-weight': 500,
+              'line-height': '40px',
+              'letter-spacing': '0.1em',
+            },
+          },
+        },
+      },
     },
   },
+  plugins: [require('@tailwindcss/typography')],
 };
