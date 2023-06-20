@@ -18,7 +18,7 @@ const linkItems = [
   },
   {
     title: 'プライバシーポリシー',
-    to: '',
+    to: '/privacy',
   },
 ];
 </script>
