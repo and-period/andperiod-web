@@ -44,61 +44,63 @@ watch(currentPage, () => {
 </script>
 
 <template>
-  <div class="w-full text-left whitespace-nowrap my-20">
-    <h2 class="text-primary text-6xl mb-2">News</h2>
-    <p>ニュース</p>
-  </div>
+  <div class="px-24">
+    <div class="w-full text-left whitespace-nowrap my-20">
+      <h2 class="text-primary text-6xl mb-2">News</h2>
+      <p>ニュース</p>
+    </div>
 
-  <div class="grid grid-cols-3 gap-10">
-    <nuxt-link
-      :to="article._path"
-      v-for="article in articles"
-      :key="article._path"
-    >
-      <the-news-item
-        class="hover:bg-white hover:rounded-xl"
-        :img-src="article.thumbnailUrl"
-        :publish-at="article.publishAt"
-        :tag="article.tag"
-        :title="article.title"
-      />
-    </nuxt-link>
-  </div>
+    <div class="grid grid-cols-3 gap-10">
+      <nuxt-link
+        :to="article._path"
+        v-for="article in articles"
+        :key="article._path"
+      >
+        <the-news-item
+          class="hover:bg-white hover:rounded-xl"
+          :img-src="article.thumbnailUrl"
+          :publish-at="article.publishAt"
+          :tag="article.tag"
+          :title="article.title"
+        />
+      </nuxt-link>
+    </div>
 
-  <div class="my-10 flex items-center justify-center gap-[50px]">
-    <button
-      :class="{
-        'h-10 w-10 px-4 py-2': true,
-        'text-primary': currentPage !== 1,
-        'opacity-25': currentPage === 1,
-      }"
-      :disabled="currentPage === 1"
-      @click="handleClickPrevButton"
-    >
-      ←
-    </button>
-    <button
-      v-for="page in totalPageCount"
-      :key="page"
-      :class="{
-        'h-10 w-10 px-4 py-2': true,
-        'bg-primary text-white rounded-full': currentPage === page,
-        'text-primary': currentPage !== page,
-      }"
-      @click="handleClickPageButton(page)"
-    >
-      {{ page }}
-    </button>
-    <button
-      :class="{
-        'h-10 w-10 px-4 py-2': true,
-        'text-primary': currentPage !== totalPageCount,
-        'opacity-25': currentPage === totalPageCount,
-      }"
-      :disabled="currentPage === totalPageCount"
-      @click="handleClickNextButton"
-    >
-      →
-    </button>
+    <div class="my-10 flex items-center justify-center gap-[50px]">
+      <button
+        :class="{
+          'h-10 w-10 px-4 py-2': true,
+          'text-primary': currentPage !== 1,
+          'opacity-25': currentPage === 1,
+        }"
+        :disabled="currentPage === 1"
+        @click="handleClickPrevButton"
+      >
+        ←
+      </button>
+      <button
+        v-for="page in totalPageCount"
+        :key="page"
+        :class="{
+          'h-10 w-10 px-4 py-2': true,
+          'bg-primary text-white rounded-full': currentPage === page,
+          'text-primary': currentPage !== page,
+        }"
+        @click="handleClickPageButton(page)"
+      >
+        {{ page }}
+      </button>
+      <button
+        :class="{
+          'h-10 w-10 px-4 py-2': true,
+          'text-primary': currentPage !== totalPageCount,
+          'opacity-25': currentPage === totalPageCount,
+        }"
+        :disabled="currentPage === totalPageCount"
+        @click="handleClickNextButton"
+      >
+        →
+      </button>
+    </div>
   </div>
 </template>
