@@ -6,6 +6,7 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
+    "preview-static": "npx http-server .output/public",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
