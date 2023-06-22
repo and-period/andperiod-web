@@ -50,14 +50,13 @@ watch(currentPage, () => {
       <p>ニュース</p>
     </div>
 
-    <div class="grid grid-cols-3 gap-10">
+    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10">
       <nuxt-link
         :to="article._path"
         v-for="article in articles"
         :key="article._path"
       >
         <the-news-item
-          class="hover:bg-white hover:rounded-xl"
           :img-src="article.thumbnailUrl"
           :publish-at="article.publishAt"
           :tag="article.tag"
