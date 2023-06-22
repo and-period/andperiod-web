@@ -12,6 +12,9 @@ export default <Partial<Config>>{
         primary: '#64C4D7',
         gray: '#B3B3B3',
       },
+      screens: {
+        'tall': '1008px'
+      },
       typography: (theme: any) => ({
         DEFAULT: {
           css: {
