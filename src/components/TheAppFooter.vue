@@ -2,7 +2,7 @@
 const linkItems = [
   {
     title: 'サービスについて',
-    to: '',
+    to: '/services',
   },
   {
     title: 'ニュース',
