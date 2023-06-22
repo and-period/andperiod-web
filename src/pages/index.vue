@@ -29,15 +29,28 @@ const { data } = await useAsyncData('index', () => {
 </script>
 
 <template>
-  <div class="w-full flex flex-col gap-10 mb-10">
+  <div class="w-full flex flex-col gap-10 mb-10 p-6">
     <div>
-      <div class="mx-auto max-w-max">
-        <the-brand-logo />
+      <div class="mx-auto max-w-max relative">
+        <img
+          class="rounded-3xl min-h-[560px] object-cover"
+          src="/img/top.png"
+          alt="top page thumbnail"
+        />
+        <div
+          class="absolute lg:top-24 top-[32px] lg:right-[84px] left-[36px] inline-flex flex-col items-start gap-6 lg:text-[32px] text-[20px] text-primary font-medium lg:tracking-[.25em] tracking-[0.75em] [writing-mode:vertical-rl]"
+        >
+          <span class="lg:py-4 py-2 inline-block rounded-lg bg-white"
+            >継承主体から</span
+          >
+          <span class="lg:py-4 py-2 inline-block rounded-lg bg-white"
+            >新たな一次産業を</span
+          >
+          <span class="lg:py-4 py-2 inline-block rounded-lg bg-white"
+            >ともに創造する未来へ</span
+          >
+        </div>
       </div>
-      <p
-        class="mt-20 text-center text-4xl whitespace-pre-wrap"
-        v-text="'継承主体から新たな一次産業を\nともに創造する未来へ'"
-      />
     </div>
 
     <div
