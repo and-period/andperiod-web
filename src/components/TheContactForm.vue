@@ -8,7 +8,7 @@ const onSubmit = (): void => {};
   <div class="flex flex-col gap-10">
     <div>
       <label class="block">
-        <sapn class="text-base">お問い合わせ内容</sapn>
+        <sapn class="text-sm md:text-base">お問い合わせ内容</sapn>
         <span
           class="border ml-4 px-4 py-1 text-[15px] text-primary border-primary rounded-full"
           >必須</span
@@ -39,7 +39,7 @@ const onSubmit = (): void => {};
     </div>
     <div>
       <label class="block">
-        <sapn class="text-base">貴社名</sapn>
+        <sapn class="text-sm md:text-base">貴社名</sapn>
         <input
           class="block mt-4 pl-4 py-4 w-full border border-primary rounded"
           placeholder="例）株式会社アンドピリオド"
@@ -48,7 +48,7 @@ const onSubmit = (): void => {};
     </div>
     <div>
       <label class="block">
-        <sapn class="text-base">お名前</sapn>
+        <sapn class="text-sm md:text-base">お名前</sapn>
         <span
           class="border ml-4 px-4 py-1 text-[15px] text-primary border-primary rounded-full"
           >必須</span
@@ -61,7 +61,7 @@ const onSubmit = (): void => {};
     </div>
     <div>
       <label class="block">
-        <sapn class="text-base">メールアドレス</sapn>
+        <sapn class="text-sm md:text-base">メールアドレス</sapn>
         <span
           class="border ml-4 px-4 py-1 text-[15px] text-primary border-primary rounded-full"
           >必須</span
@@ -74,7 +74,7 @@ const onSubmit = (): void => {};
     </div>
     <div>
       <label class="block">
-        <sapn class="text-base">電話番号（ハイフンなし）</sapn>
+        <sapn class="text-sm md:text-base">電話番号（ハイフンなし）</sapn>
         <span
           class="border ml-4 px-4 py-1 text-[15px] text-primary border-primary rounded-full"
           >必須</span
@@ -87,7 +87,7 @@ const onSubmit = (): void => {};
     </div>
     <div>
       <label class="block">
-        <sapn class="text-base">お問い合わせ詳細</sapn>
+        <sapn class="text-sm md:text-base">お問い合わせ詳細</sapn>
         <span
           class="border ml-4 px-4 py-1 text-[15px] text-primary border-primary rounded-full"
           >必須</span
@@ -98,7 +98,7 @@ const onSubmit = (): void => {};
         ></textarea>
       </label>
     </div>
-    <div class="text-center whitespace-nowrap">
+    <div class="text-sm md:text-base text-center leading-8 whitespace-wrap">
       <p>
         <u><a href="/privacy">プライバシーポリシー</a></u
         >をご確認いただき、同意いただける場合のみお進みください。
@@ -106,7 +106,7 @@ const onSubmit = (): void => {};
     </div>
     <div class="flex justify-center mb-20">
       <nuxt-link
-        class="block max-w-max bg-primary text-white rounded-full py-4 px-[80px] text-l hover:bg-opacity-80"
+        class="block max-w-max bg-primary text-white rounded-full py-3 md:py-4 px-[80px] text-base md:text-l hover:bg-opacity-80"
       >
         同意して送信する
       </nuxt-link>
