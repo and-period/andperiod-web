@@ -4,6 +4,7 @@
 
 @layer base {
 	html,body, #__nuxt, #__layout{
+		@apply bg-default;
 		height:100%;
 	}
 }
