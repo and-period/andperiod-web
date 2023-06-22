@@ -27,6 +27,10 @@ const isOpen = ref<boolean>(false);
 const handleClick = () => {
   isOpen.value = !isOpen.value;
 };
+
+const closeMenu = () => {
+  isOpen.value = false;
+};
 </script>
 
 <template>
@@ -37,7 +41,7 @@ const handleClick = () => {
     }"
   >
     <div class="flex items-center justify-between max-w-[1200px] grow">
-      <nuxt-link to="/">
+      <nuxt-link to="/" @click="closeMenu">
         <div
           :class="{ 'flex items-center gap-x-4': true, 'text-white': isOpen }"
         >
@@ -68,13 +72,18 @@ const handleClick = () => {
 
     <div
       v-show="isOpen"
-      class="absolute top-20 w-full bg-primary text-white flex flex-col h-[calc(100vh_-_80px)] p-8 gap-10 lg:hidden"
+      class="absolute z-10 md:top-20 top-16 w-full bg-primary text-white flex flex-col h-[calc(100vh_-_80px)] p-8 gap-10 lg:hidden"
     >
-      <nuxt-link to="/">
+      <nuxt-link to="/" @click="closeMenu">
         <p class="text-xl">トップページ</p>
         <span class="text-xs"> Top </span>
       </nuxt-link>
-      <nuxt-link v-for="(item, i) in linkItems" :key="i" :to="item.to">
+      <nuxt-link
+        v-for="(item, i) in linkItems"
+        :key="i"
+        :to="item.to"
+        @click="closeMenu"
+      >
         <p class="text-xl">
           {{ item.title }}
         </p>
