@@ -35,6 +35,7 @@ const { data } = await useAsyncData('index', () => {
         <img
           class="rounded-3xl min-h-[560px] object-cover"
           src="/img/top.png"
+          loading="lazy"
           alt="top page thumbnail"
         />
         <div
@@ -66,7 +67,8 @@ const { data } = await useAsyncData('index', () => {
         </p>
         <div class="flex justify-center md:justify-end">
           <nuxt-link
-            class="block max-w-max bg-primary text-white rounded-full py-3 px-10 text-l hover:bg-opacity-80"
+            class="block max-w-max bg-primary text-white rounded-full py-3 px-10 hover:bg-opacity-80"
+            to="/services"
           >
             View more +
           </nuxt-link>
