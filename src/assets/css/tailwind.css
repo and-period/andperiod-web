@@ -4,7 +4,7 @@
 
 @layer base {
 	html,body, #__nuxt, #__layout{
-		@apply bg-default;
+	@apply bg-default text-body-text;
 		height:100%;
 	}
 }

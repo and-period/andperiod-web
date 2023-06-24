@@ -11,9 +11,10 @@ export default <Partial<Config>>{
         white: '#FFFFFF',
         primary: '#64C4D7',
         gray: '#B3B3B3',
+        'body-text': '#404040',
       },
       screens: {
-        'tall': '1008px'
+        tall: '1008px',
       },
       typography: (theme: any) => ({
         DEFAULT: {
