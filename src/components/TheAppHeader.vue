@@ -37,6 +37,7 @@ const closeMenu = () => {
   <div
     :class="{
       'w-full md:h-30 md:py-8 px-2 py-4 relative flex items-center justify-center': true,
+      'bg-default': !isOpen,
       'bg-primary': isOpen,
     }"
   >
