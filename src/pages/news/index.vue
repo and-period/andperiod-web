@@ -44,7 +44,7 @@ watch(currentPage, () => {
 </script>
 
 <template>
-  <div class="px-24">
+  <div class="md:px-24 px-6">
     <div class="w-full text-left whitespace-nowrap my-20">
       <h2 class="text-primary text-6xl mb-2">News</h2>
       <p>ニュース</p>
