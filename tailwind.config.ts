@@ -5,7 +5,7 @@ export default <Partial<Config>>{
     extend: {
       fontFamily: {
         sans: ['Zen Kaku Gothic New'],
-        outfit: ['Outfit']
+        outfit: ['Outfit'],
       },
       colors: {
         default: '#F9F9F9',
@@ -15,6 +15,7 @@ export default <Partial<Config>>{
         'body-text': '#404040',
       },
       screens: {
+        '2xl': '1200px',
         tall: '1008px',
       },
       typography: (theme: any) => ({
