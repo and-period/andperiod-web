@@ -24,4 +24,9 @@ export default defineNuxtConfig({
   ssr: true,
   srcDir: 'src',
   modules: ['@nuxtjs/tailwindcss', '@nuxt/content'],
+  nitro: {
+    prerender: {
+      routes: ['/sitemap.xml'],
+    },
+  },
 });
