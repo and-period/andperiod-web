@@ -46,8 +46,8 @@ watch(currentPage, () => {
 <template>
   <div class="md:px-24 px-6">
     <div class="w-full text-left whitespace-nowrap my-20">
-      <h2 class="text-primary text-6xl mb-2">News</h2>
-      <p>ニュース</p>
+      <h2 class="text-primary text-6xl mb-2 tracking-widest">News</h2>
+      <p class="text-[13px] md:text-xl tracking-widest">ニュース</p>
     </div>
 
     <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10">

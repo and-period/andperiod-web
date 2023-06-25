@@ -38,11 +38,11 @@ const nextPath = computed(() => {
 <template>
   <div class="md:px-24 px-6">
     <ContentDoc v-slot="{ doc }">
-      <div class="flex items-center text-primary gap-4 my-10">
-        <div class="text-2xl font-bold">
+      <div class="md:flex items-center text-primary gap-4 my-10">
+        <div class="md:text-2xl text-base font-bold">
           {{ doc.publishAt }}
         </div>
-        <div class="border border-primary text-sm rounded-xl px-3">
+        <div class="border max-w-max border-primary md:text-sm text-[11px] md:mt-0 mt-4 rounded-xl px-3">
           {{ doc.tag }}
         </div>
       </div>

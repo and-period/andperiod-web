@@ -1,5 +1,5 @@
 ---
-title: 'ホームページを開設しました'
+title: 'ホームページを開設しました！'
 description: 'meta description of the page'
 tag: 'お知らせ'
 publishAt: '2023.07.01'
