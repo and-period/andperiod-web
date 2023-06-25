@@ -5,7 +5,7 @@
     <div class="my-20 flex lg:flex-row flex-col lg:gap-20 gap-10">
       <div class="text-left font-medium whitespace-nowrap">
         <h2
-          class="text-primary text-[32px] md:text-[56px] tracking-widest mb-2"
+          class="text-primary text-[32px] md:text-[56px] tracking-widest mb-2 font-outfit"
         >
           Service
         </h2>
