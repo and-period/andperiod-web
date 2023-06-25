@@ -1,30 +1,30 @@
 <script setup lang="ts">
 const newsItems = [
   {
-    imgSrc: '/img/1.png',
-    publishAt: '2023.05.01',
-    tag: 'プレスリリース',
+    imgSrc: "/img/1.png",
+    publishAt: "2023.05.01",
+    tag: "プレスリリース",
     title:
-      '全国の生産者が紹介する商品をオンラインで購入できるライブコマースサービス「ふるマル」をリリースしました。',
+      "全国の生産者が紹介する商品をオンラインで購入できるライブコマースサービス「ふるマル」をリリースしました。",
   },
   {
-    imgSrc: '/img/1.png',
-    publishAt: '2023.05.01',
-    tag: 'プレスリリース',
+    imgSrc: "/img/1.png",
+    publishAt: "2023.05.01",
+    tag: "プレスリリース",
     title:
-      '全国の生産者が紹介する商品をオンラインで購入できるライブコマースサービス「ふるマル」をリリースしました。',
+      "全国の生産者が紹介する商品をオンラインで購入できるライブコマースサービス「ふるマル」をリリースしました。",
   },
   {
-    imgSrc: '/img/1.png',
-    publishAt: '2023.05.01',
-    tag: 'プレスリリース',
+    imgSrc: "/img/1.png",
+    publishAt: "2023.05.01",
+    tag: "プレスリリース",
     title:
-      '全国の生産者が紹介する商品をオンラインで購入できるライブコマースサービス「ふるマル」をリリースしました。',
+      "全国の生産者が紹介する商品をオンラインで購入できるライブコマースサービス「ふるマル」をリリースしました。",
   },
 ];
 
-const { data } = await useAsyncData('index', () => {
-  return queryContent('news').sort({ publishAt: 1 }).limit(3).find();
+const { data } = await useAsyncData("index", () => {
+  return queryContent("news").sort({ publishAt: 1 }).limit(3).find();
 });
 </script>
 

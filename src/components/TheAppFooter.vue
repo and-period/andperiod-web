@@ -26,7 +26,7 @@ const linkItems = [
 <template>
   <div class="w-full bg-primary text-white p-6">
     <div
-      class="flex mt-8 flex-col gap-5 items-start md:flex-row md:justify-center md:gap-10 md:items-center"
+      class="flex mt-8 flex-col gap-5 items-start md:flex-row md:justify-center md:gap-10 md:items-center font-medium tracking-[1.6px]"
     >
       <nuxt-link v-for="(item, i) in linkItems" :key="i" :to="item.to">
         {{ item.title }}
