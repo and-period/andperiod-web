@@ -1,4 +1,8 @@
 <script setup lang="ts">
+useHead({
+  titleTemplate: '%s - and period',
+});
+
 const route = useRoute();
 
 const currentPath = computed<string>(() => {
@@ -10,7 +14,7 @@ const currentPath = computed<string>(() => {
   }
 });
 
-const { data } = await useAsyncData('artcle', () => {
+const { data } = await useAsyncData('article', () => {
   console.log(currentPath.value);
   return queryContent()
     .only('_path')
@@ -42,7 +46,9 @@ const nextPath = computed(() => {
         <div class="font-medium md:text-2xl text-base font-outfit">
           {{ doc.publishAt }}
         </div>
-        <div class="border max-w-max border-primary md:text-sm text-[11px] md:mt-0 mt-4 rounded-xl px-3">
+        <div
+          class="border max-w-max border-primary md:text-sm text-[11px] md:mt-0 mt-4 rounded-xl px-3"
+        >
           {{ doc.tag }}
         </div>
       </div>
