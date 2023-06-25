@@ -23,26 +23,26 @@
     </div>
 
     <div
-      class="grid lg:grid-cols-2 grid-cols-1 gap-y-8 gap-x-[18px] lg:px-20 mb-20"
+      class="grid lg:grid-cols-2 grid-cols-1 gap-y-8 gap-x-[18px] lg:px-20 mb-20 text-base md:text-2xl"
     >
       <a
         href="#furumaru"
-        class="block w-full bg-primary text-white rounded-full py-4 px-10 text-center hover:bg-opacity-80"
+        class="block w-full bg-primary text-white rounded-full py-4 md:py-6 px-10 text-center hover:bg-opacity-80 md:tracing-[2.4px] tracking-[1.6px]"
       >
         オンラインマルシュ事業 ↓
       </a>
       <button
-        class="block w-full bg-primary text-white rounded-full py-4 px-10 text-center hover:bg-opacity-80"
+        class="block w-full bg-primary text-white rounded-full py-4 md:py-6 px-10 text-center hover:bg-opacity-80 md:tracing-[2.4px] tracking-[1.6px]"
       >
         販路開拓支援事業 ↓
       </button>
       <button
-        class="block w-full bg-primary text-white rounded-full py-4 px-10 text-center hover:bg-opacity-80"
+        class="block w-full bg-primary text-white rounded-full py-4 md:py-6 px-10 text-center hover:bg-opacity-80 md:tracing-[2.4px] tracking-[1.6px]"
       >
         フードロス対策事業 ↓
       </button>
       <button
-        class="block w-full bg-primary text-white rounded-full py-4 px-10 text-center hover:bg-opacity-80"
+        class="block w-full bg-primary text-white rounded-full py-4 md:py-6 px-10 text-center hover:bg-opacity-80 md:tracing-[2.4px] tracking-[1.6px]"
       >
         農業事業 ↓
       </button>
