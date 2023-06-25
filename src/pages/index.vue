@@ -58,16 +58,16 @@ const { data } = await useAsyncData('index', () => {
       class="bg-white rounded-3xl w-full items-center py-8 px-6 gap-x-20 gap-y-10 flex flex-col lg:flex-row md:py-20 md:px-24"
     >
       <div class="w-full text-left whitespace-nowrap">
-        <h2 class="text-primary text-6xl mb-2 font-outfit tracking-widest font-medium">Service</h2>
-        <p>サービスについて</p>
+        <h2 class="text-primary text-[40px] md:text-[56px] mb-2 font-outfit tracking-widest font-medium">Service</h2>
+        <p class="text-sm md:text-xl font-medium tracking-[2px]">サービスについて</p>
       </div>
       <div class="flex flex-col gap-y-4">
-        <p class="leading-10">
+        <p class="font-medium md:tracking-[2px] tracking-[1.6px] text-base md:text-xl leading-10 md:leading-10">
           ライブ配信で全国の「ふるさと」を感じながら新しい購買体験が可能となるオンラインマルシェサービス「ふるマル」を中心としたシステム開発事業・販路開拓事業・フードロス対策事業など生産者・消費者双方に寄り添ったサービスの展開を行っています。
         </p>
         <div class="flex justify-center md:justify-end">
           <nuxt-link
-            class="block max-w-max bg-primary text-white rounded-full py-3 px-10 hover:bg-opacity-80"
+            class="block max-w-max bg-primary text-white rounded-full py-3 px-10 hover:bg-opacity-80 font-outfit md:tracing-[2.4px] tracking-[1.6px] text-base md:text-2xl"
             to="/services"
           >
             View more +
@@ -80,8 +80,8 @@ const { data } = await useAsyncData('index', () => {
       class="bg-white rounded-3xl w-full flex flex-col py-8 px-6 gap-y-10 items-center md:py-20 md:px-24"
     >
       <div class="w-full text-left whitespace-nowrap">
-        <h2 class="text-primary text-6xl mb-2">News</h2>
-        <p>ニュース</p>
+        <h2 class="text-primary text-[40px] md:text-[56px] mb-2 font-outfit tracking-widest font-medium">News</h2>
+        <p class="text-sm md:text-xl font-medium tracking-[2px]">ニュース</p>
       </div>
 
       <div class="w-full gap-8 grid lg:grid-cols-3 grid-cols-1">
@@ -96,11 +96,11 @@ const { data } = await useAsyncData('index', () => {
       </div>
 
       <nuxt-link
-        class="block max-w-max bg-primary text-white rounded-full py-3 px-10 text-lg hover:bg-opacity-80"
-        to="/news"
-      >
-        View more +
-      </nuxt-link>
+            class="block max-w-max bg-primary text-white rounded-full py-3 px-10 hover:bg-opacity-80 font-outfit md:tracing-[2.4px] tracking-[1.6px] text-base md:text-2xl"
+            to="/services"
+          >
+            View more +
+          </nuxt-link>
     </div>
   </div>
 </template>
