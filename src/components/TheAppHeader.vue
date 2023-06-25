@@ -55,7 +55,7 @@ const closeMenu = () => {
       </nuxt-link>
       <div
         :class="{
-          'gap-x-12 items-center text-primary lg:flex hidden': true,
+          'gap-x-12 items-center text-primary lg:flex hidden font-medium tracking-[1.6px]': true,
           'text-white': isOpen,
         }"
       >
