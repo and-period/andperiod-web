@@ -5,7 +5,7 @@ const formData = ref<string>("");
 const onSubmit = (): void => {};
 </script>
 <template>
-  <div class="flex flex-col gap-10">
+  <div class="flex flex-col gap-10 font-medium">
     <div>
       <label class="block">
         <sapn class="text-sm md:text-base">お問い合わせ内容</sapn>
@@ -98,7 +98,7 @@ const onSubmit = (): void => {};
         ></textarea>
       </label>
     </div>
-    <div class="text-sm md:text-base text-center leading-8 whitespace-wrap">
+    <div class="text-sm md:text-base text-center leading-8 whitespace-wrap md:tracing-[1.6px] tracking-[1.4px]">
       <p>
         <u><a href="/privacy">プライバシーポリシー</a></u
         >をご確認いただき、同意いただける場合のみお進みください。
@@ -106,7 +106,7 @@ const onSubmit = (): void => {};
     </div>
     <div class="flex justify-center mb-20">
       <nuxt-link
-        class="block max-w-max bg-primary text-white rounded-full py-3 md:py-4 px-[80px] text-base md:text-l hover:bg-opacity-80"
+        class="block max-w-max bg-primary text-white rounded-full py-3 md:py-4 px-[80px] md:text-xl text-base md:text-l hover:bg-opacity-80 md:tracing-[2.0px] tracking-[1.6px]"
       >
         同意して送信する
       </nuxt-link>
