@@ -5,6 +5,7 @@ export default <Partial<Config>>{
     extend: {
       fontFamily: {
         sans: ['Zen Kaku Gothic New'],
+        outfit: ['Outfit']
       },
       colors: {
         default: '#F9F9F9',
@@ -20,9 +21,10 @@ export default <Partial<Config>>{
         DEFAULT: {
           css: {
             'font-size': '14px',
-            'line-height': '48px',
+            'line-height': '32px',
             '@media (min-width: theme("screens.md"))': {
               'font-size': '20px',
+              'line-height': '48px',
             },
             h1: {
               'font-size': '16px',

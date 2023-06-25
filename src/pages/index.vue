@@ -58,7 +58,7 @@ const { data } = await useAsyncData('index', () => {
       class="bg-white rounded-3xl w-full items-center py-8 px-6 gap-x-20 gap-y-10 flex flex-col lg:flex-row md:py-20 md:px-24"
     >
       <div class="w-full text-left whitespace-nowrap">
-        <h2 class="text-primary text-6xl mb-2">Service</h2>
+        <h2 class="text-primary text-6xl mb-2 font-outfit tracking-widest font-medium">Service</h2>
         <p>サービスについて</p>
       </div>
       <div class="flex flex-col gap-y-4">
