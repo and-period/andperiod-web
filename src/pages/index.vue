@@ -45,7 +45,7 @@ const { data } = await useAsyncData('index', () => {
       </div>
       <div class="flex flex-col gap-y-4">
         <p
-          class="font-medium md:tracking-[2px] tracking-[1.6px] text-base md:text-xl leading-10 md:leading-10"
+          class="font-medium md:tracking-[2px] tracking-[1.6px] text-base md:text-xl leading-8 md:leading-[48px]"
         >
           ライブ配信で全国の「ふるさと」を感じながら新しい購買体験が可能となるオンラインマルシェサービス「ふるマル」を中心としたシステム開発事業・販路開拓事業・フードロス対策事業など生産者・消費者双方に寄り添ったサービスの展開を行っています。
         </p>
