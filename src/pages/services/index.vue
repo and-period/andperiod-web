@@ -23,7 +23,7 @@
     </div>
 
     <div
-      class="grid lg:grid-cols-2 grid-cols-1 gap-y-8 gap-x-[18px] lg:px-20 mb-20 text-base md:text-2xl"
+      class="grid lg:grid-cols-2 grid-cols-1 gap-y-8 gap-x-[18px] mb-20 text-base md:text-2xl"
     >
       <a
         href="#furumaru"
