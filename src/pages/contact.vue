@@ -1,6 +1,26 @@
 <script setup lang="ts">
-//TODO: sendGridに送る処理
-const handleSubmit = async () => {};
+import { ContactRequest } from '~~/types/props';
+
+const formData = ref<ContactRequest>({
+  name: '',
+  company: '',
+  email: '',
+  phoneNumber: '',
+  subject: '',
+  content: ''
+})
+
+const handleSubmit = async () => {
+  console.log('debug', { formData: formData.value })
+  try {
+    await useFetch('https://api.and-period.co.jp', {
+      method: 'POST',
+      body: formData.value
+    });
+  } catch (err) {
+    console.log(err);
+  }
+};
 </script>
 
 <template>
@@ -14,6 +34,6 @@ const handleSubmit = async () => {};
     <p class="text-[15px] md:text-xl tracking-widest my-20 font-medium">
       下記のフォームに必要事項をご希望の上、お問い合わせください。
     </p>
-    <the-contact-form @submit="handleSubmit" />
+    <the-contact-form v-model:form-data="formData" @submit="handleSubmit" />
   </div>
 </template>
