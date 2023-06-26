@@ -65,7 +65,7 @@
     </div>
     <button
       disabled
-      class="w-[320px] h-[56px] bg-gray text-white rounded-full font-outfit text-2xl"
+      class="max-w-[320px] w-full h-[56px] bg-gray text-white rounded-full font-outfit text-2xl px-8"
     >
       coming soon …
     </button>
