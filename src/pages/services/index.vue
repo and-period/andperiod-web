@@ -31,102 +31,31 @@
       >
         オンラインマルシュ事業 ↓
       </a>
-      <button
+      <a
+        href="#market-development"
         class="block w-full bg-primary text-white rounded-full py-4 md:py-6 px-10 text-center hover:bg-opacity-80 md:tracing-[2.4px] tracking-[1.6px]"
       >
         販路開拓支援事業 ↓
-      </button>
-      <button
+      </a>
+      <a
+        href="#lossnax"
         class="block w-full bg-primary text-white rounded-full py-4 md:py-6 px-10 text-center hover:bg-opacity-80 md:tracing-[2.4px] tracking-[1.6px]"
       >
         フードロス対策事業 ↓
-      </button>
-      <button
+      </a>
+      <a
+        href="#agriculture"
         class="block w-full bg-primary text-white rounded-full py-4 md:py-6 px-10 text-center hover:bg-opacity-80 md:tracing-[2.4px] tracking-[1.6px]"
       >
         農業事業 ↓
-      </button>
+      </a>
     </div>
 
-    <div
-      class="bg-white rounded-3xl w-full flex flex-col py-8 px-6 gap-y-[120px] items-center md:py-20 md:px-24"
-    >
-      <div class="w-full text-left font-medium whitespace-nowrap">
-        <h2
-          class="text-primary text-[32px] md:text-[56px] tracking-widest mb-2"
-          id="furumaru"
-        >
-          Online marche
-        </h2>
-        <p class="text-[13px] md:text-xl tracking-widest">
-          オンラインマルシェ事業
-        </p>
-      </div>
-
-      <div class="flex gap-11 items-center w-full lg:flex-row flex-col">
-        <div class="lg:w-1/2 w-full m-auto">
-          <services-the-furumaru-logo class="w-full" />
-        </div>
-        <div class="lg:w-1/2 w-full flex flex-col gap-6">
-          <p
-            class="text-xl whitespace-pre-wrap"
-            v-text="
-              '生産者のこだわりが\n「伝える」以上に「伝わる」ライブマルシェ'
-            "
-          />
-          <h2 class="text-[32px]">ふるマル</h2>
-        </div>
-      </div>
-
-      <div
-        class="flex w-full gap-11 items-center lg:w-full lg:flex-row flex-col"
-      >
-        <div class="lg:w-1/2 w-full flex flex-col gap-6 lg:order-1 order-2">
-          <h2 class="text-2xl">
-            どこからでもリアルタイムで日本の「食」を体験できる仮想空間の実現
-          </h2>
-          <p class="tex-xl">
-            わたしたちの目指す産直ECの姿は安心して商品を購入できライブコマースを通じてリアルに体験することでお互いの想いを直接感じられるプラットフォームです。ライブマルシェは双方向でのコミュニケーションが図れるので農家さんのこだわりを直接お伝えできるとともに視聴者はライブ中に気になるポイントを質問することで、ワクワク感や納得感を得ながらお買い物をより楽しむことができます。
-          </p>
-        </div>
-        <img
-          src="/img/services/furumaru/1.png"
-          alt="furumaru"
-          class="object-contain lg:w-1/2 w-full lg:order-2 order-1"
-        />
-      </div>
-
-      <div class="flex w-full gap-11 lg:flex-row flex-col">
-        <img
-          src="/img/services/furumaru/2.png"
-          alt=""
-          class="object-contain lg:w-1/2 w-full"
-        />
-        <div class="flex flex-col gap-6 lg:w-1/2 w-full">
-          <h2 class="text-2xl">現地の空気感をオンタイムで味わう非日常体験</h2>
-          <p class="tex-xl">
-            ライブマルシェを通じて自分がその場で気に入った商品を購入できるという疑似体験によって臨場感が味わえるので、マルシェならではのワクワクや充実感を感じることができます。
-            また、既存システムにはない新しい購買体験（ピッキング機能）は実際にマルシェに赴いたかのようなお買い物の楽しさをリアルに再現できます。
-          </p>
-        </div>
-      </div>
-
-      <div
-        class="flex w-full gap-11 items-center lg:w-full lg:flex-row flex-col"
-      >
-        <div class="lg:w-1/2 w-full flex flex-col gap-6 lg:order-1 order-2">
-          <h2 class="text-2xl">産地コーディネーター制度</h2>
-          <p class="tex-xl">
-            「出品・配信・ヒアリング・検品・梱包・出荷」といった物流倉庫機能を一括して行うコーディネーターという役割を設けます。コーディネーターが介在することで生産者の作業負担を軽減できます。また購入にあたっては自分が気に入ったものを複数の生産者の方から少量ずつ購入できます。これにより生産者は栽培に集中することが可能となり、これまで障壁の高かった産直ECに手軽に参入することも可能となります。好きなものを好きな量注文することができるため、１回の配送で産地の特産品セットを自宅に届けることができます。
-            ライブマルシェを通じて自分がその場で気に入った商品を購入できるという疑似体験によって臨場感が味わえるので、マルシェならではのワクワクや充実感を感じることができます。
-          </p>
-        </div>
-        <img
-          src="/img/services/furumaru/3.png"
-          alt=""
-          class="object-contain lg:w-1/2 w-full lg:order-2 order-1"
-        />
-      </div>
+    <div class="flex flex-col lg:gap-[120px] gap-[80px]">
+      <services-the-furumaru id="furumaru" />
+      <services-the-market-development id="market-development" />
+      <services-the-loss-nax id="lossnax" />
+      <services-the-agriculture id="agriculture" />
     </div>
   </div>
 </template>
