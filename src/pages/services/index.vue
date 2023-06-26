@@ -27,27 +27,87 @@
     >
       <a
         href="#furumaru"
-        class="block w-full bg-primary text-white rounded-full py-4 md:py-6 px-10 text-center hover:bg-opacity-80 md:tracing-[2.4px] tracking-[1.6px]"
+        class="flex justify-between flex-row w-full bg-primary text-white rounded-full py-4 md:py-6 px-10 hover:bg-opacity-80 md:tracing-[2.4px] tracking-[1.6px]"
       >
-        オンラインマルシュ事業 ↓
+        <p class="ml-auto mr-auto">オンラインマルシュ事業</p>
+        <div class="mt-1.5 md:mt-3">
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              id="Arrow 1"
+              d="M9 1C9 0.447715 8.55228 2.8974e-08 8 0C7.44772 -2.8974e-08 7 0.447715 7 1L9 1ZM7.29289 14.9448C7.68342 15.3354 8.31658 15.3354 8.70711 14.9448L15.0711 8.58087C15.4616 8.19035 15.4616 7.55719 15.0711 7.16666C14.6805 6.77614 14.0474 6.77614 13.6569 7.16666L8 12.8235L2.34315 7.16666C1.95262 6.77614 1.31946 6.77614 0.928932 7.16666C0.538408 7.55718 0.538408 8.19035 0.928932 8.58087L7.29289 14.9448ZM7 1L7 14.2377L9 14.2377L9 1L7 1Z"
+              fill="white"
+            />
+          </svg>
+        </div>
       </a>
       <a
         href="#market-development"
-        class="block w-full bg-primary text-white rounded-full py-4 md:py-6 px-10 text-center hover:bg-opacity-80 md:tracing-[2.4px] tracking-[1.6px]"
+        class="flex justify-between flex-row w-full bg-primary text-white rounded-full py-4 md:py-6 px-10 hover:bg-opacity-80 md:tracing-[2.4px] tracking-[1.6px]"
       >
-        販路開拓支援事業 ↓
+        <p class="ml-auto mr-auto">販路開拓支援事業</p>
+        <div class="mt-1.5 md:mt-3">
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              id="Arrow 1"
+              d="M9 1C9 0.447715 8.55228 2.8974e-08 8 0C7.44772 -2.8974e-08 7 0.447715 7 1L9 1ZM7.29289 14.9448C7.68342 15.3354 8.31658 15.3354 8.70711 14.9448L15.0711 8.58087C15.4616 8.19035 15.4616 7.55719 15.0711 7.16666C14.6805 6.77614 14.0474 6.77614 13.6569 7.16666L8 12.8235L2.34315 7.16666C1.95262 6.77614 1.31946 6.77614 0.928932 7.16666C0.538408 7.55718 0.538408 8.19035 0.928932 8.58087L7.29289 14.9448ZM7 1L7 14.2377L9 14.2377L9 1L7 1Z"
+              fill="white"
+            />
+          </svg>
+        </div>
       </a>
       <a
         href="#lossnax"
-        class="block w-full bg-primary text-white rounded-full py-4 md:py-6 px-10 text-center hover:bg-opacity-80 md:tracing-[2.4px] tracking-[1.6px]"
+        class="flex justify-between flex-row w-full bg-primary text-white rounded-full py-4 md:py-6 px-10 text-center hover:bg-opacity-80 md:tracing-[2.4px] tracking-[1.6px]"
       >
-        フードロス対策事業 ↓
+        <p class="ml-auto mr-auto">フードロス対策事業</p>
+        <div class="mt-1.5 md:mt-3">
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              id="Arrow 1"
+              d="M9 1C9 0.447715 8.55228 2.8974e-08 8 0C7.44772 -2.8974e-08 7 0.447715 7 1L9 1ZM7.29289 14.9448C7.68342 15.3354 8.31658 15.3354 8.70711 14.9448L15.0711 8.58087C15.4616 8.19035 15.4616 7.55719 15.0711 7.16666C14.6805 6.77614 14.0474 6.77614 13.6569 7.16666L8 12.8235L2.34315 7.16666C1.95262 6.77614 1.31946 6.77614 0.928932 7.16666C0.538408 7.55718 0.538408 8.19035 0.928932 8.58087L7.29289 14.9448ZM7 1L7 14.2377L9 14.2377L9 1L7 1Z"
+              fill="white"
+            />
+          </svg>
+        </div>
       </a>
       <a
         href="#agriculture"
-        class="block w-full bg-primary text-white rounded-full py-4 md:py-6 px-10 text-center hover:bg-opacity-80 md:tracing-[2.4px] tracking-[1.6px]"
+        class="flex justify-between flex-row w-full bg-primary text-white rounded-full py-4 md:py-6 px-10 text-center hover:bg-opacity-80 md:tracing-[2.4px] tracking-[1.6px]"
       >
-        農業事業 ↓
+        <p class="ml-auto mr-auto">農業事業</p>
+        <div class="mt-1.5 md:mt-3">
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              id="Arrow 1"
+              d="M9 1C9 0.447715 8.55228 2.8974e-08 8 0C7.44772 -2.8974e-08 7 0.447715 7 1L9 1ZM7.29289 14.9448C7.68342 15.3354 8.31658 15.3354 8.70711 14.9448L15.0711 8.58087C15.4616 8.19035 15.4616 7.55719 15.0711 7.16666C14.6805 6.77614 14.0474 6.77614 13.6569 7.16666L8 12.8235L2.34315 7.16666C1.95262 6.77614 1.31946 6.77614 0.928932 7.16666C0.538408 7.55718 0.538408 8.19035 0.928932 8.58087L7.29289 14.9448ZM7 1L7 14.2377L9 14.2377L9 1L7 1Z"
+              fill="white"
+            />
+          </svg>
+        </div>
       </a>
     </div>
 
