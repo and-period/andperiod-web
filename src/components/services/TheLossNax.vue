@@ -114,5 +114,13 @@
         </div>
       </div>
     </div>
+
+    <a
+      href="#"
+      aria-disabled
+      class="block max-w-[320px] w-full bg-gray text-white rounded-full font-outfit text-2xl px-8 py-3 text-center pointer-events-none"
+    >
+      coming soon …
+    </a>
   </services-the-service-content-box>
 </template>

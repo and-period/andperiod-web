@@ -22,5 +22,13 @@
         />
       </div>
     </div>
+
+    <a
+      href="https://www.kamijimafarm.com/"
+      target="_blank"
+      class="block max-w-[320px] w-full bg-primary text-white rounded-full font-outfit text-2xl px-8 py-3 text-center"
+    >
+      Product Site
+    </a>
   </services-the-service-content-box>
 </template>
