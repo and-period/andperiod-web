@@ -63,11 +63,13 @@
         class="object-contain lg:w-1/2 w-full lg:order-2 order-1"
       />
     </div>
-    <button
-      disabled
-      class="w-[320px] h-[56px] bg-gray text-white rounded-full font-outfit text-2xl"
+
+    <a
+      href="#"
+      aria-disabled
+      class="block max-w-[320px] w-full bg-gray text-white rounded-full font-outfit text-2xl px-8 py-3 text-center pointer-events-none"
     >
       coming soon …
-    </button>
+    </a>
   </services-the-service-content-box>
 </template>

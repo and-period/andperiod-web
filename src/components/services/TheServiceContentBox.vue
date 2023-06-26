@@ -11,7 +11,7 @@ defineProps<Props>();
   <div
     class="bg-white rounded-3xl w-full flex flex-col py-8 px-6 gap-y-[120px] items-center md:py-20 md:px-24"
   >
-    <div class="w-full text-left font-medium whitespace-nowrap">
+    <div class="w-full text-left font-medium">
       <h2 class="text-primary text-[32px] md:text-[56px] tracking-widest mb-2">
         {{ title }}
       </h2>
