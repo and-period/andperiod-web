@@ -73,7 +73,7 @@ const closeMenu = () => {
 
     <div
       v-show="isOpen"
-      class="absolute z-10 md:top-20 top-16 w-full bg-primary text-white flex flex-col h-[calc(100vh_-_80px)] p-8 gap-10 lg:hidden"
+      class="absolute z-10 md:top-20 top-16 w-full bg-primary text-white flex flex-col h-[calc(100vh_-_60px)] p-8 gap-10 lg:hidden"
     >
       <nuxt-link to="/" @click="closeMenu">
         <p class="text-xl">トップページ</p>
