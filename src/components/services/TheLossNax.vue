@@ -94,7 +94,7 @@
       </div>
     </div>
 
-    <div class="w-full">
+    <div class="w-full mb-[40px] md:mb-[80px]">
       <p class="mb-10 text-xl">事例紹介</p>
       <div class="flex items-center w-full lg:flex-row flex-col gap-10">
         <div class="flex flex-col gap-6 lg:order-1 order-2 lg:w-1/2 w-full">

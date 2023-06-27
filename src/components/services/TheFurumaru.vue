@@ -49,7 +49,7 @@
       </div>
     </div>
 
-    <div class="flex w-full gap-11 items-center lg:w-full lg:flex-row flex-col">
+    <div class="flex w-full gap-11 items-center lg:w-full lg:flex-row flex-col mb-[40px] md:mb-[80px]">
       <div class="lg:w-1/2 w-full flex flex-col gap-6 lg:order-1 order-2">
         <h2 class="text-2xl">産地コーディネーター制度</h2>
         <p class="tex-xl">
