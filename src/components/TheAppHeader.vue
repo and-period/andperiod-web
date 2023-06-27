@@ -13,7 +13,7 @@ const linkItems = [
   {
     title: '会社情報',
     subTitle: 'About us',
-    to: '',
+    to: '/about',
   },
   {
     title: 'お問い合わせ',
