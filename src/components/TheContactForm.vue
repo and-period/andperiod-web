@@ -10,23 +10,23 @@ const props = defineProps({
       email: '',
       phoneNumber: '',
       subject: '',
-      content: ''
-    })
-  }
+      content: '',
+    }),
+  },
 });
 
 const emit = defineEmits<{
-  (e: 'update:form-data', formData: ContactRequest): void
-  (e: 'submit'): void
+  (e: 'update:form-data', formData: ContactRequest): void;
+  (e: 'submit'): void;
 }>();
 
 const formDataValue = computed({
   get: (): ContactRequest => props.formData,
-  set: (formData: ContactRequest): void => emit('update:form-data', formData)
+  set: (formData: ContactRequest): void => emit('update:form-data', formData),
 });
 
 const onSubmit = (): void => {
-  emit('submit')
+  emit('submit');
 };
 </script>
 
@@ -35,14 +35,15 @@ const onSubmit = (): void => {
     <div class="flex flex-col gap-10 font-medium">
       <div>
         <label class="block">
-          <sapn class="text-sm md:text-base">お問い合わせ内容</sapn>
+          <span class="text-sm md:text-base">お問い合わせ内容</span>
           <span
-            class="border ml-4 px-4 py-1 text-[15px] text-primary border-primary rounded-full"
+            class="border ml-4 px-4 py-1 md:text-[15px] text-[11px] text-primary border-primary rounded-full"
             >必須</span
           >
           <select
             v-model="formDataValue.subject"
-            class="block mt-4 pl-4 w-full py-4 border border-primary rounded"
+            class="block mt-4 pl-4 w-full py-4 bg-white border border-primary rounded"
+            :class="{ 'text-gray': formDataValue.subject === '' }"
             required
           >
             <option value="" disabled selected>
@@ -64,76 +65,78 @@ const onSubmit = (): void => {
       </div>
       <div>
         <label class="block">
-          <sapn class="text-sm md:text-base">貴社名</sapn>
+          <span class="text-sm md:text-base">貴社名</span>
           <input
             v-model="formDataValue.company"
             class="block mt-4 pl-4 py-4 w-full border border-primary rounded"
             placeholder="例）株式会社アンドピリオド"
-            required
           />
         </label>
       </div>
       <div>
         <label class="block">
-          <sapn class="text-sm md:text-base">お名前</sapn>
+          <span class="">お名前</span>
           <span
-            class="border ml-4 px-4 py-1 text-[15px] text-primary border-primary rounded-full"
+            class="border ml-4 px-4 py-1 md:text-[15px] text-[11px] text-primary border-primary rounded-full"
             >必須</span
           >
-          <input
-            v-model="formDataValue.name"
-            class="block mt-4 pl-4 py-4 w-full border border-primary rounded"
-            placeholder="例）山田 太郎"
-            required
-          />
         </label>
+        <input
+          v-model="formDataValue.name"
+          class="block mt-4 pl-4 py-4 w-full border border-primary rounded"
+          placeholder="例）山田 太郎"
+          required
+        />
       </div>
       <div>
         <label class="block">
-          <sapn class="text-sm md:text-base">メールアドレス</sapn>
+          <span class="text-sm md:text-base">メールアドレス</span>
           <span
-            class="border ml-4 px-4 py-1 text-[15px] text-primary border-primary rounded-full"
+            class="border ml-4 px-4 py-1 md:text-[15px] text-[11px] text-primary border-primary rounded-full"
             >必須</span
           >
-          <input
-            v-model="formDataValue.email"
-            class="block mt-4 pl-4 py-4 w-full border border-primary rounded"
-            placeholder="例）example@and-period.co.jp"
-            required
-          />
         </label>
+        <input
+          v-model="formDataValue.email"
+          class="block mt-4 pl-4 py-4 w-full border border-primary rounded"
+          placeholder="例）example@and-period.co.jp"
+          required
+        />
       </div>
       <div>
         <label class="block">
-          <sapn class="text-sm md:text-base">電話番号（ハイフンなし）</sapn>
+          <span class="text-sm md:text-base">電話番号（ハイフンなし）</span>
           <span
-            class="border ml-4 px-4 py-1 text-[15px] text-primary border-primary rounded-full"
+            class="border ml-4 px-4 py-1 md:text-[15px] text-[11px] text-primary border-primary rounded-full"
             >必須</span
           >
-          <input
-            v-model="formDataValue.phoneNumber"
-            class="block mt-4 pl-4 py-4 w-full border border-primary rounded"
-            placeholder="例）090XXXXXXXX"
-            required
-          />
         </label>
+        <input
+          v-model="formDataValue.phoneNumber"
+          class="block mt-4 pl-4 py-4 w-full border border-primary rounded"
+          placeholder="例）090XXXXXXXX"
+          required
+        />
       </div>
       <div>
         <label class="block">
-          <sapn class="text-sm md:text-base">お問い合わせ詳細</sapn>
+          <span class="text-sm md:text-base">お問い合わせ詳細</span>
           <span
-            class="border ml-4 px-4 py-1 text-[15px] text-primary border-primary rounded-full"
+            class="border ml-4 px-4 py-1 md:text-[15px] text-[11px] text-primary border-primary rounded-full"
             >必須</span
           >
-          <textarea
-            v-model="formDataValue.content"
-            class="block mt-4 pl-4 pt-4 py-[400px] w-full border border-primary rounded"
-            placeholder="お問い合わせ内容を具体的にご記入ください"
-            required
-          ></textarea>
         </label>
+        <textarea
+          v-model="formDataValue.content"
+          class="block mt-4 pl-4 pt-4 py-[400px] w-full border border-primary rounded"
+          placeholder="お問い合わせ内容を具体的にご記入ください"
+          required
+        ></textarea>
       </div>
-      <div class="text-sm md:text-base text-center leading-8 whitespace-wrap md:tracing-[1.6px] tracking-[1.4px]">
+
+      <div
+        class="text-sm md:text-base text-center leading-8 whitespace-wrap md:tracing-[1.6px] tracking-[1.4px]"
+      >
         <p>
           <u><a href="/privacy">プライバシーポリシー</a></u
           >をご確認いただき、同意いただける場合のみお進みください。

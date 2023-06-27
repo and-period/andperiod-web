@@ -33,7 +33,7 @@
 
     <div class="w-full">
       <p class="mb-10 text-xl">サービスフロー</p>
-      <div class="flex items-center gap-4 xl:flex-row flex-col">
+      <div class="flex items-center xl:gap-2 gap-4 xl:flex-row flex-col">
         <div
           class="relative border border-primary rounded-full w-[228px] h-[480px]"
         >
@@ -47,7 +47,9 @@
           </p>
         </div>
 
-        <div class="text-primary lg:after:content-['→'] after:content-['↓']" />
+        <div
+          class="text-primary lg:after:content-['→'] after:content-['↓'] lg:text-xl text-3xl"
+        />
 
         <div
           class="relative border border-primary rounded-full w-[228px] h-[480px]"
@@ -62,7 +64,9 @@
           </p>
         </div>
 
-        <div class="text-primary lg:after:content-['→'] after:content-['↓']" />
+        <div
+          class="text-primary lg:after:content-['→'] after:content-['↓'] lg:text-xl text-3xl"
+        />
 
         <div
           class="relative border border-primary rounded-full w-[228px] h-[480px]"
@@ -77,7 +81,9 @@
           </p>
         </div>
 
-        <div class="text-primary lg:after:content-['→'] after:content-['↓']" />
+        <div
+          class="text-primary lg:after:content-['→'] after:content-['↓'] lg:text-xl text-3xl"
+        />
 
         <div
           class="relative border border-primary rounded-full w-[228px] h-[480px]"
