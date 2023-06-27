@@ -29,7 +29,7 @@
         href="#furumaru"
         class="flex justify-between flex-row w-full bg-primary text-white rounded-full py-4 md:py-6 px-10 hover:bg-opacity-80 md:tracing-[2.4px] tracking-[1.6px]"
       >
-        <p class="ml-auto mr-auto">オンラインマルシュ事業</p>
+        <p class="ml-auto mr-auto">オンラインマルシェ事業</p>
         <div class="mt-1.5 md:mt-3">
           <svg
             width="16"
