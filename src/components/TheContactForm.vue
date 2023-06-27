@@ -65,12 +65,11 @@ const onSubmit = (): void => {
       </div>
       <div>
         <label class="block">
-          <sapn class="text-sm md:text-base">貴社名</sapn>
+          <span class="text-sm md:text-base">貴社名</span>
           <input
             v-model="formDataValue.company"
             class="block mt-4 pl-4 py-4 w-full border border-primary rounded"
             placeholder="例）株式会社アンドピリオド"
-            required
           />
         </label>
       </div>
