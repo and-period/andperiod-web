@@ -9,13 +9,13 @@ defineProps<Props>();
 
 <template>
   <div
-    class="bg-white rounded-3xl w-full flex flex-col py-8 px-6 gap-y-[120px] items-center md:py-20 md:px-24"
+    class="bg-white rounded-3xl w-full flex flex-col py-8 px-6 items-center md:py-20 md:px-24"
   >
     <div class="w-full text-left font-medium">
-      <h2 class="text-primary text-[32px] md:text-[56px] tracking-widest mb-2">
+      <h2 class="text-primary text-[24px] md:text-[40px] tracking-widest mb-2">
         {{ title }}
       </h2>
-      <p class="text-[13px] md:text-xl tracking-widest">
+      <p class="text-[14px] md:text-[20px] md:text-xl tracking-widest mb-[40px] md:mb-[120px]">
         {{ subtitle }}
       </p>
     </div>
