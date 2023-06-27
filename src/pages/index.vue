@@ -85,7 +85,7 @@ const { data } = await useAsyncData('index', () => {
 
       <nuxt-link
         class="block max-w-max bg-primary text-white rounded-full py-3 px-10 hover:bg-opacity-80 font-outfit md:tracing-[2.4px] tracking-[1.6px] text-base md:text-2xl"
-        to="/services"
+        to="/news"
       >
         View more +
       </nuxt-link>
