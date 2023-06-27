@@ -3,27 +3,27 @@
     title="Online marche"
     subtitle="オンラインマルシェ事業"
   >
-    <div class="flex gap-11 items-center w-full lg:flex-row flex-col">
+    <div class="flex gap-11 items-center w-full lg:flex-row flex-col font-medium">
       <div class="lg:w-1/2 w-full m-auto">
         <services-the-furumaru-logo class="w-full" />
       </div>
-      <div class="lg:w-1/2 w-full flex flex-col gap-6">
+      <div class="lg:w-1/2 w-full flex flex-col mb-12">
         <p
-          class="text-xl whitespace-pre-wrap"
+          class="text-sm md:text-xl whitespace-pre-wrap leading-[32px] mt-[56.27px] tracking-[1.4px] md:tracking-[2.0px]"
           v-text="
             '生産者のこだわりが\n「伝える」以上に「伝わる」ライブマルシェ'
           "
         />
-        <h2 class="text-[32px]">ふるマル</h2>
+        <h2 class="text-2xl md:text-[32px] mt-6 tracking-[2.4px] md:tracking-[3.2px]">ふるマル</h2>
       </div>
     </div>
 
     <div class="flex w-full gap-11 items-center lg:w-full lg:flex-row flex-col">
-      <div class="lg:w-1/2 w-full flex flex-col gap-6 lg:order-1 order-2">
-        <h2 class="text-2xl">
+      <div class="lg:w-1/2 w-full flex flex-col gap-6 lg:order-1 order-2 font-medium tracking-[2.0px] md:tracking-[2.4px] leading-8">
+        <h2 class="text-xl md:text-2xl">
           どこからでもリアルタイムで日本の「食」を体験できる仮想空間の実現
         </h2>
-        <p class="tex-xl">
+        <p class="text-sm md:text-base">
           わたしたちの目指す産直ECの姿は安心して商品を購入できライブコマースを通じてリアルに体験することでお互いの想いを直接感じられるプラットフォームです。ライブマルシェは双方向でのコミュニケーションが図れるので農家さんのこだわりを直接お伝えできるとともに視聴者はライブ中に気になるポイントを質問することで、ワクワク感や納得感を得ながらお買い物をより楽しむことができます。
         </p>
       </div>
@@ -34,28 +34,29 @@
       />
     </div>
 
-    <div class="flex w-full gap-11 lg:flex-row flex-col">
+    <div class="flex w-full gap-11 lg:flex-row flex-col mt-[80px] md:mt-[106px]">
       <img
         src="/img/services/furumaru/2.png"
         alt=""
         class="object-contain lg:w-1/2 w-full"
       />
-      <div class="flex flex-col gap-6 lg:w-1/2 w-full">
-        <h2 class="text-2xl">現地の空気感をオンタイムで味わう非日常体験</h2>
-        <p class="tex-xl">
+      <div class="flex flex-col gap-6 lg:w-1/2 w-full font-medium tracking-[2.0px] md:tracking-[2.4px] leading-8">
+        <h2 class="text-xl md:text-2xl">現地の空気感をオンタイムで味わう非日常体験</h2>
+        <p class="text-sm md:text-base">
           ライブマルシェを通じて自分がその場で気に入った商品を購入できるという疑似体験によって臨場感が味わえるので、マルシェならではのワクワクや充実感を感じることができます。
           また、既存システムにはない新しい購買体験（ピッキング機能）は実際にマルシェに赴いたかのようなお買い物の楽しさをリアルに再現できます。
         </p>
       </div>
     </div>
 
-    <div class="flex w-full gap-11 items-center lg:w-full lg:flex-row flex-col mb-[40px] md:mb-[80px]">
-      <div class="lg:w-1/2 w-full flex flex-col gap-6 lg:order-1 order-2">
-        <h2 class="text-2xl">産地コーディネーター制度</h2>
-        <p class="tex-xl">
-          「出品・配信・ヒアリング・検品・梱包・出荷」といった物流倉庫機能を一括して行うコーディネーターという役割を設けます。コーディネーターが介在することで生産者の作業負担を軽減できます。また購入にあたっては自分が気に入ったものを複数の生産者の方から少量ずつ購入できます。これにより生産者は栽培に集中することが可能となり、これまで障壁の高かった産直ECに手軽に参入することも可能となります。好きなものを好きな量注文することができるため、１回の配送で産地の特産品セットを自宅に届けることができます。
-          ライブマルシェを通じて自分がその場で気に入った商品を購入できるという疑似体験によって臨場感が味わえるので、マルシェならではのワクワクや充実感を感じることができます。
-        </p>
+    <div class="flex w-full gap-11 items-center lg:w-full lg:flex-row flex-col mb-[40px] md:mb-[80px] mt-[80px] md:mt-[106px]">
+      <div class="lg:w-1/2 w-full flex flex-col gap-6 lg:order-1 order-2 font-medium tracking-[2.0px] md:tracking-[2.4px] leading-8">
+        <h2 class="text-xl md:text-2xl">産地コーディネーター制度</h2>
+        <p class="text-sm md:text-base whitespace-pre-wrap"
+          v-text="
+          '「出品・配信・ヒアリング・検品・梱包・出荷」といった物流倉庫機能を一括して行うコーディネーターという役割を設けます。コーディネーターが介在することで生産者の作業負担を軽減できます。また購入にあたっては自分が気に入ったものを複数の生産者の方から少量ずつ購入できます。これにより生産者は栽培に集中することが可能となり、これまで障壁の高かった産直ECに手軽に参入することも可能となります。好きなものを好きな量注文することができるため、１回の配送で産地の特産品セットを自宅に届けることができます。\nライブマルシェを通じて自分がその場で気に入った商品を購入できるという疑似体験によって臨場感が味わえるので、マルシェならではのワクワクや充実感を感じることができます。'
+          "
+          />
       </div>
       <img
         src="/img/services/furumaru/3.png"

@@ -11,6 +11,7 @@
         </h2>
         <p class="text-[13px] md:text-xl tracking-widest">サービスについて</p>
       </div>
+      <!--
       <div>
         <h1
           class="whitespace-pre-wrap lg:min-w-max font-medium text-[32px] tracking-widest"
@@ -20,6 +21,7 @@
           「いいもの」だけが残る好循環を目指し、一次産業とITを融合した新しい基盤•仕組み•文化を創出します。
         </p>
       </div>
+      -->
     </div>
 
     <div
