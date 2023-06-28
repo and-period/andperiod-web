@@ -4,7 +4,7 @@ export default defineNuxtConfig({
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
-      title: 'and period',
+      title: '株式会社アンドピリオド and period',
       meta: [
         {
           name: 'description',
