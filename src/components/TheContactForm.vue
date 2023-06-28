@@ -121,6 +121,7 @@ const onSubmit = (): void => {
           class="block mt-4 pl-4 py-4 w-full border border-primary rounded"
           placeholder="例）090XXXXXXXX"
           required
+          type="number"
           id="phoneNumber"
         />
       </div>
