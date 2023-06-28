@@ -32,9 +32,11 @@ export default <Partial<Config>>{
               'font-weight': 500,
               'letter-spacing': '0.1em',
               'margin-bottom': '40px',
+              'line-height': '32px',
               '@media (min-width: theme("screens.md"))': {
                 'font-size': '24px',
                 'margin-bottom': '56px',
+                'line-height': '48px',
               },
             },
             p: {

@@ -15,7 +15,6 @@ const currentPath = computed<string>(() => {
 });
 
 const { data } = await useAsyncData('article', () => {
-  console.log(currentPath.value);
   return queryContent()
     .only('_path')
     .sort({ publishAt: 1 })
