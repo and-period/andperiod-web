@@ -3,16 +3,16 @@
     title="Online marche"
     subtitle="オンラインマルシェ事業"
   >
-    <div class="flex flex-col items-center md:gap-y-[120px] gap-y-[80px]">
+    <div class="flex flex-col items-center md:gap-y-[120px] gap-y-[56px]">
       <div
-        class="flex gap-12 items-center w-full lg:flex-row flex-col font-medium"
+        class="flex gap-x-12 gap-y-14 items-center w-full lg:flex-row flex-col font-medium"
       >
         <div class="lg:w-1/2 w-full m-auto">
           <services-the-furumaru-logo class="w-full" />
         </div>
-        <div class="lg:w-1/2 w-full flex flex-col mb-12">
+        <div class="lg:w-1/2 w-full flex flex-col">
           <p
-            class="text-sm md:text-xl whitespace-pre-wrap leading-[32px] mt-[56.27px] tracking-[1.4px] md:tracking-[2.0px]"
+            class="text-sm md:text-xl whitespace-pre-wrap leading-[32px] tracking-[1.4px] md:tracking-[2.0px]"
             v-text="
               '生産者のこだわりが\n「伝える」以上に「伝わる」ライブマルシェ'
             "
@@ -59,7 +59,9 @@
           </h2>
           <p
             class="whitespace-pre-wrap text-sm md:text-[16px] tracking-[2px] md:tracking-[2.4px] leading-8"
-            v-text="'ライブマルシェを通じて自分がその場で気に入った商品を購入できるという疑似体験によって臨場感が味わえるので、マルシェならではのワクワクや充実感を感じることができます。\nまた、既存システムにはない新しい購買体験（ピッキング機能）は実際にマルシェに赴いたかのようなお買い物の楽しさをリアルに再現できます。'"
+            v-text="
+              'ライブマルシェを通じて自分がその場で気に入った商品を購入できるという疑似体験によって臨場感が味わえるので、マルシェならではのワクワクや充実感を感じることができます。\nまた、既存システムにはない新しい購買体験（ピッキング機能）は実際にマルシェに赴いたかのようなお買い物の楽しさをリアルに再現できます。'
+            "
           />
         </div>
       </div>
