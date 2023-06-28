@@ -4,7 +4,7 @@
     subtitle="フードロス対策事業"
   >
     <div
-      class="w-full flex flex-col items-center md:gap-y-[120px] gap-y-[80px]"
+      class="w-full flex flex-col items-center md:gap-y-[120px] gap-y-[80px] font-medium"
     >
       <div class="flex lg:flex-row flex-col gap-x-12 gap-y-14 w-full">
         <div class="lg:w-1/2 w-full m-auto">
