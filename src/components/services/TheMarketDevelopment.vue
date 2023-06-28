@@ -3,23 +3,23 @@
     title="Market development"
     subtitle="販路開拓支援事業"
   >
-    <div class="flex flex-col gap-6">
-      <h2 class="text-2xl">
+    <div class="flex flex-col gap-6 font-medium mr-auto tracking-[1.4px] md:tracking-[2.0px] leading-[32px]">
+      <h2 class="text-[20px] md:text-[24px]">
         生産者の新しい収入源をつくり出し、産地・産品の魅力を発信する
       </h2>
-      <p class="text-xl">
+      <p class="text-[14px] md:text-[16px]">
         仕入れから卸販売までをサポートし、生産者の新たな収入源の創出と産地・産品の魅力を発信することを両立させます。
       </p>
     </div>
 
-    <div class="mb-[40px] md:mb-[80px]">
-      <p class="mb-10 text-xl">事例紹介</p>
+    <div class="mb-[40px] md:mb-[80px] mt-[80px] font-medium">
+      <p class="mb-[40px] text-xl">事例紹介</p>
       <div class="flex items-center w-full lg:flex-row flex-col gap-10">
-        <div class="flex flex-col gap-6 lg:order-1 order-2 lg:w-1/2 w-full">
-          <h2 class="text-2xl">
+        <div class="flex flex-col gap-6 lg:order-1 order-2 lg:w-1/2 w-full tracking-[1.4px] md:tracking-[2.0px] leading-[32px] md:leading-[40px]">
+          <h2 class="text-[20px] md:text-2xl">
             地元の甘夏農家と老舗酒蔵をつないで、世界にひとつの甘夏風味のクラフトジン製作の販路を開拓
           </h2>
-          <p class="text-xl">
+          <p class="text-[14px] md:text-[16px]">
             味と香り共に遜色無いが成品として出荷できない甘夏を一括で仕入れ、地元の農産物で新たな商品を開発したいというニーズのある酒蔵でご活用いただけました。
           </p>
         </div>
