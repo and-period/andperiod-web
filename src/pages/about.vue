@@ -43,7 +43,7 @@ const ABOUT_US_ITEMS = [
           <div
             v-for="(item, i) in ABOUT_US_ITEMS"
             :key="i"
-            class="grid grid-cols-3 gap-x-4 gap-y-4 md:py-8 py-6 md:px-10 px-2"
+            class="grid grid-cols-3 gap-x-4 gap-y-4 md:py-8 py-6 md:px-10 px-2 md:tracking-[2px] tracking-[1.3px]"
           >
             <dt class="md:col-span-1 col-span-3">{{ item.key }}</dt>
             <dd class="md:col-span-2 col-span-3">{{ item.value }}</dd>
