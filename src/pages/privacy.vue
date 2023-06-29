@@ -6,3 +6,14 @@
     />
   </ContentDoc>
 </template>
+
+<style lang="css">
+.privacy-md {
+  color: #404040;
+}
+
+.privacy-md a {
+  color: #404040;
+  text-decoration-line: none;
+}
+</style>
