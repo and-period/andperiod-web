@@ -44,13 +44,19 @@ const closeMenu = () => {
     <div class="flex items-center justify-between max-w-[1200px] grow">
       <nuxt-link to="/" @click="closeMenu">
         <div
-          :class="{ 'flex items-center gap-x-4': true, 'text-white': isOpen }"
+          :class="{
+            'flex items-center md:gap-x-4 gap-x-2': true,
+            'text-white': isOpen,
+          }"
         >
           <the-brand-logo
-            class="h-10 w-10"
+            class="md:h-10 md:w-10 h-6 w-6"
             :color="isOpen ? 'white' : 'primary'"
           />
-          <the-brand-title :color="isOpen ? 'white' : 'primary'" />
+          <the-brand-title
+            class="md:w-[200px] w-[126px]"
+            :color="isOpen ? 'white' : 'primary'"
+          />
         </div>
       </nuxt-link>
       <div
