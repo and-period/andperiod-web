@@ -20,6 +20,19 @@
   }
 }
 
+.privacy-md ol {
+  font-weight: 500;
+  font-size: 14px;
+
+  @media (min-width: 768px) {
+    font-size: 16px;
+  }
+}
+
+.privacy-md ol ::marker {
+  color: #404040;
+}
+
 .privacy-md a {
   color: #404040;
   text-decoration-line: none;
