@@ -22,12 +22,12 @@ const resetFormData = () => {
 const handleSubmit = async () => {
   console.log('debug', { formData: formData.value });
   try {
-    await useFetch('https://api.and-period.co.jp', {
-      method: 'POST',
-      body: formData.value,
-    });
+    // await $fetch('https://api.and-period.co.jp', {
+    //   method: 'POST',
+    //   body: JSON.stringify(formData.value),
+    // });
     alert('問い合わせ内容を送信しました。');
-    resetFormData();
+    // resetFormData();
   } catch (err) {
     alert(
       '問い合わせ内容の送信に失敗しました。お手数ですが時間をおいてから再度送信してください。'

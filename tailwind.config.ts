@@ -39,6 +39,15 @@ export default <Partial<Config>>{
                 'line-height': '48px',
               },
             },
+            h2: {
+              'font-size': '15px',
+              'font-weight': 500,
+              'line-height': '24px',
+              '@media (min-width: theme("screens.md"))': {
+                'font-size': '20px',
+                'line-height': '48px',
+              },
+            },
             p: {
               'font-size': '14px',
               'line-height': '32px',
