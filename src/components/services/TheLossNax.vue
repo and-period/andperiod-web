@@ -124,7 +124,7 @@
           </div>
           <div class="lg:order-2 order-1 lg:w-1/2 w-full">
             <img
-              src="/img/services/loss-nax/1.png"
+              src="/img/services/loss-nax/1.jpg"
               alt="OLIBIOの紹介"
               class="md:h-[320px] m-auto object-contain"
             />
