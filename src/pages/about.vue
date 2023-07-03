@@ -50,7 +50,7 @@ const BOARD_MEMBERS = [
       <div>
         <h1
           class="whitespace-pre-wrap lg:min-w-max font-medium text-[20px] md:text-[32px] tracking-widest"
-          v-text="'継承主体から、\n新たな一次産業をともに創造する未来へ。'"
+          v-text="'継承主体の現在から、\n新たな一次産業をともに創造する未来へ。'"
         />
         <p
           class="mt-10 text-[14px] md:text-[20px] leading-[32px] md:leading-[48px] tracking-widest"
