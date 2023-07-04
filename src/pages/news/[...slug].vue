@@ -42,7 +42,9 @@ const nextPath = computed(() => {
   <div class="md:px-24 px-6">
     <ContentDoc v-slot="{ doc }">
       <div class="md:flex items-center text-primary gap-4 my-10">
-        <div class="font-medium md:text-2xl text-base font-outfit">
+        <div
+          class="font-medium md:text-2xl text-base font-outfit tracking-[2px]"
+        >
           {{ doc.publishAt }}
         </div>
         <div
