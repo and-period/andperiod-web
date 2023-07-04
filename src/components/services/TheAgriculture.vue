@@ -1,9 +1,13 @@
 <template>
   <services-the-service-content-box title="Agriculture" subtitle="農業事業">
-    <div class="flex items-center w-full lg:flex-row flex-col gap-10 ">
-      <div class="flex flex-col gap-6 lg:order-1 order-2 lg:w-1/2 w-full mb-[40px] md:mb-[80px]">
+    <div class="flex items-center w-full lg:flex-row flex-col gap-10">
+      <div
+        class="flex flex-col gap-6 lg:order-1 order-2 lg:w-1/2 w-full mb-[40px] md:mb-[80px]"
+      >
         <h2 class="text-2xl font-medium">レモンを栽培し自社ECサイトで販売</h2>
-        <div class="text-base flex flex-col gap-6 md:tracing-[2.4px] tracking-[1.6px] md:leading-10 leading-8 font-medium">
+        <div
+          class="text-base flex flex-col gap-6 md:tracing-[2.4px] tracking-[1.6px] md:leading-10 leading-8 font-medium"
+        >
           <p>
             広島県の離島・大崎上島にて30aのレモン栽培と5haのレモン園地の栽培委託を請け負っています。（※面積は今後も拡大予定）栽培方法は広島県の定める「特別栽培農産物」基準での栽培。一般的な農産物よりも「5割以上」農薬や除草剤の使用を低減した栽培を行なっています。
           </p>
@@ -28,8 +32,10 @@
       target="_blank"
       class="flex justify-between max-w-[320px] w-full bg-primary text-white rounded-full font-outfit text-2xl px-8 py-3 text-center"
     >
-    <p class="ml-auto mr-auto mt">Product Site</p>
-    <svg
+      <p class="ml-auto mr-auto mt md:tracking-[2px] tracking-[1.6px]">
+        Product Site
+      </p>
+      <svg
         width="20"
         height="30"
         viewBox="0 0 20 13"

@@ -3,7 +3,9 @@
     title="Market development"
     subtitle="販路開拓支援事業"
   >
-    <div class="flex flex-col gap-6 font-medium mr-auto tracking-[1.4px] md:tracking-[2.0px] leading-[32px]">
+    <div
+      class="flex flex-col gap-6 font-medium mr-auto tracking-[1.4px] md:tracking-[2.0px] leading-[32px]"
+    >
       <h2 class="text-[20px] md:text-[24px]">
         生産者の新しい収入源をつくり出し、産地・産品の魅力を発信する
       </h2>
@@ -15,7 +17,9 @@
     <div class="mb-[40px] md:mb-[80px] mt-[80px] font-medium">
       <p class="mb-[40px] text-xl">事例紹介</p>
       <div class="flex items-center w-full lg:flex-row flex-col gap-10">
-        <div class="flex flex-col gap-6 lg:order-1 order-2 lg:w-1/2 w-full tracking-[1.4px] md:tracking-[2.0px] leading-[32px] md:leading-[40px]">
+        <div
+          class="flex flex-col gap-6 lg:order-1 order-2 lg:w-1/2 w-full tracking-[1.4px] md:tracking-[2.0px] leading-[32px] md:leading-[40px]"
+        >
           <h2 class="text-[20px] md:text-2xl">
             地元の甘夏農家と老舗酒蔵をつないで、世界にひとつの甘夏風味のクラフトジン製作の販路を開拓
           </h2>
@@ -38,7 +42,9 @@
       target="_blank"
       class="flex justify-between max-w-[320px] w-full bg-primary text-white rounded-full font-outfit text-2xl px-8 py-3 text-center"
     >
-      <p class="ml-auto mr-auto">Product Site</p>
+      <p class="ml-auto mr-auto md:tracking-[2px] tracking-[1.6px]">
+        Product Site
+      </p>
       <svg
         width="20"
         height="30"
