@@ -1,4 +1,17 @@
 <script setup lang="ts">
+interface Props {
+  isOpen: boolean;
+}
+
+defineProps<Props>();
+
+interface Emits {
+  (e: 'open'): void;
+  (e: 'close'): void;
+}
+
+const emits = defineEmits<Emits>();
+
 const linkItems = [
   {
     title: 'サービスについて',
@@ -22,14 +35,12 @@ const linkItems = [
   },
 ];
 
-const isOpen = ref<boolean>(false);
-
 const handleClick = () => {
-  isOpen.value = !isOpen.value;
+  emits('open');
 };
 
 const closeMenu = () => {
-  isOpen.value = false;
+  emits('close');
 };
 </script>
 
