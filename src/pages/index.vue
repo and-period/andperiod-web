@@ -17,13 +17,13 @@ const { data } = await useAsyncData('index', () => {
         <div
           class="absolute lg:top-24 top-[32px] lg:right-[84px] left-[36px] inline-flex flex-col items-start gap-6 lg:text-[32px] text-[20px] text-primary font-medium lg:tracking-[.25em] tracking-[0.75em] [writing-mode:vertical-rl]"
         >
-          <span class="lg:py-4 py-2 inline-block rounded-lg bg-white"
+          <span class="lg:pt-4 lg:pb-2 py-2 inline-block rounded bg-white"
             >継承主体の現在から</span
           >
-          <span class="lg:py-4 py-2 inline-block rounded-lg bg-white"
+          <span class="lg:pt-4 lg:pb-2 py-2 inline-block rounded bg-white"
             >新たな一次産業を</span
           >
-          <span class="lg:py-4 py-2 inline-block rounded-lg bg-white"
+          <span class="lg:pt-4 lg:pb-2 py-2 inline-block rounded bg-white"
             >ともに創造する未来へ</span
           >
         </div>
