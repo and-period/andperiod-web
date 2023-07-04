@@ -18,7 +18,7 @@
             "
           />
           <h2
-            class="text-2xl md:text-[32px] mt-6 tracking-[2.4px] md:tracking-[3.2px]"
+            class="text-2xl md:text-[32px] mt-6 tracking-[2px] md:tracking-[3.2px]"
           >
             ふるマル
           </h2>
@@ -35,7 +35,7 @@
             どこからでもリアルタイムで日本の「食」を体験できる仮想空間の実現
           </h2>
           <span
-            class="text-sm md:text-[16px] tracking-[2px] md:tracking-[2.4px] leading-8"
+            class="text-sm md:text-[16px] tracking-[2px] md:tracking-[2px] leading-8"
           >
             わたしたちの目指す産直ECの姿は安心して商品を購入できライブコマースを通じてリアルに体験することでお互いの想いを直接感じられるプラットフォームです。ライブマルシェは双方向でのコミュニケーションが図れるので農家さんのこだわりを直接お伝えできるとともに視聴者はライブ中に気になるポイントを質問することで、ワクワク感や納得感を得ながらお買い物をより楽しむことができます。
           </span>
@@ -58,7 +58,7 @@
             現地の空気感をオンタイムで味わう非日常体験
           </h2>
           <p
-            class="whitespace-pre-wrap text-sm md:text-[16px] tracking-[2px] md:tracking-[2.4px] leading-8"
+            class="whitespace-pre-wrap text-sm md:text-[16px] tracking-[2px] md:tracking-[2px] leading-8"
             v-text="
               'ライブマルシェを通じて自分がその場で気に入った商品を購入できるという疑似体験によって臨場感が味わえるので、マルシェならではのワクワクや充実感を感じることができます。\nまた、既存システムにはない新しい購買体験（ピッキング機能）は実際にマルシェに赴いたかのようなお買い物の楽しさをリアルに再現できます。'
             "
@@ -76,7 +76,7 @@
             産地コーディネーター制度
           </h2>
           <p
-            class="whitespace-pre-wrap text-sm md:text-[16px] tracking-[2px] md:tracking-[2.4px] leading-8"
+            class="whitespace-pre-wrap text-sm md:text-[16px] tracking-[2px] md:tracking-[2px] leading-8"
             v-text="
               '「出品・配信・ヒアリング・検品・梱包・出荷」といった物流倉庫機能を一括して行うコーディネーターという役割を設けます。コーディネーターが介在することで生産者の作業負担を軽減できます。また購入にあたっては自分が気に入ったものを複数の生産者の方から少量ずつ購入できます。これにより生産者は栽培に集中することが可能となり、これまで障壁の高かった産直ECに手軽に参入することも可能となります。好きなものを好きな量注文することができるため、１回の配送で産地の特産品セットを自宅に届けることができます。\nライブマルシェを通じて自分がその場で気に入った商品を購入できるという疑似体験によって臨場感が味わえるので、マルシェならではのワクワクや充実感を感じることができます。'
             "

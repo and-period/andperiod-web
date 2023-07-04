@@ -15,18 +15,18 @@
             class="md:text-[20px] text-[14px] whitespace-pre-wrap leading-8 tracking-[1.4px]"
             v-text="'ロスを無くす新しい発想で\n持続可能な一次産業を促進する'"
           />
-          <h2 class="md:text-[32px] text-[24px] leading-8 tracking-[2.4px]">
+          <h2 class="md:text-[32px] text-[24px] leading-8 tracking-[2px]">
             ロスナックス
           </h2>
         </div>
       </div>
 
       <div class="flex flex-col gap-6">
-        <h2 class="md:text-[24px] leading-8 md:tracking-[2.4px]">
+        <h2 class="md:text-[24px] leading-8 md:tracking-[2px]">
           LOSSNAX（ロスナックス）はその名の通り、食にまつわる「ロスを無くす」をコンセプトに生まれたブランドです
         </h2>
         <div
-          class="md:text-[16px] text-[14px] md:tracking-[2.4px] tracking-[2.0px] md:leading-10 leading-8 flex flex-col gap-4"
+          class="md:text-[16px] text-[14px] md:tracking-[2px] tracking-[2.0px] md:leading-10 leading-8 flex flex-col gap-4"
         >
           <p>
             少し形が異なるというだけで捨てられてしまう農作物や、まだまだ使い道があるのに加工過程で処分されてしまう食材が多く存在します。これまで廃棄されてきた食材の新たな価値を発見したり、品質基準から外れた食材で新しい商品を開発したりすることで持続可能な農業を促進していきます。
@@ -113,11 +113,11 @@
           class="flex items-center w-full lg:flex-row flex-col gap-x-12 gap-y-10"
         >
           <div class="flex flex-col gap-6 lg:order-1 order-2 lg:w-1/2 w-full">
-            <h2 class="md:text-[24px] leading-8 md:tracking-[2.4px]">
+            <h2 class="md:text-[24px] leading-8 md:tracking-[2px]">
               オリーブの果皮から生まれたサプリメント「オリビオ」
             </h2>
             <p
-              class="md:text-[16px] text-[14px] md:tracking-[2.4px] tracking-[2.0px] md:leading-10 leading-8 flex flex-col gap-4"
+              class="md:text-[16px] text-[14px] md:tracking-[2px] tracking-[2.0px] md:leading-10 leading-8 flex flex-col gap-4"
             >
               これまで活用用途がなく廃棄され続けてきた、オリーブの実からオイルを絞った後に残る果皮が高品質サプリメントに生まれ変わりました。お客様にサプリメントの品質を知ってもらうことで、生産者の方の主力製品であるオリーブオイルの魅力を再認識してもらえるような構成で販売することができています。
             </p>

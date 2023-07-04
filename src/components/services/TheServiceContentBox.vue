@@ -13,7 +13,7 @@ defineProps<Props>();
   >
     <div class="w-full text-left font-medium">
       <h2
-        class="text-primary text-[24px] md:text-[40px] md:tracking-[4px] tracking-[2.4px] mb-4 font-outfit"
+        class="text-primary text-[24px] md:text-[40px] md:tracking-[4px] tracking-[2px] mb-4 font-outfit"
       >
         {{ title }}
       </h2>
