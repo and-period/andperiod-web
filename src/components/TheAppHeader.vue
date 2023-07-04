@@ -83,7 +83,7 @@ const closeMenu = () => {
     >
       <nuxt-link to="/" @click="closeMenu">
         <p class="text-xl">トップページ</p>
-        <span class="text-xs"> Top </span>
+        <span class="text-xs font-outfit"> Top </span>
       </nuxt-link>
       <nuxt-link
         v-for="(item, i) in linkItems"
@@ -94,7 +94,7 @@ const closeMenu = () => {
         <p class="text-xl">
           {{ item.title }}
         </p>
-        <span class="text-xs">
+        <span class="text-xs font-outfit">
           {{ item.subTitle }}
         </span>
       </nuxt-link>
