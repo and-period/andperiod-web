@@ -51,7 +51,7 @@ const { data } = await useAsyncData('index', () => {
         </p>
         <div class="flex justify-center md:justify-end">
           <nuxt-link
-            class="block max-w-max bg-primary text-white rounded-full py-3 px-10 hover:bg-opacity-80 font-outfit md:tracing-[2.4px] tracking-[1.6px] text-base md:text-2xl"
+            class="block max-w-max bg-primary text-white rounded-full py-3 px-10 hover:bg-opacity-80 font-outfit md:tracking-[2px] tracking-[1.6px] text-base md:text-2xl"
             to="/services"
           >
             View more +
@@ -84,7 +84,7 @@ const { data } = await useAsyncData('index', () => {
       </div>
 
       <nuxt-link
-        class="block max-w-max bg-primary text-white rounded-full py-3 px-10 hover:bg-opacity-80 font-outfit md:tracing-[2.4px] tracking-[1.6px] text-base md:text-2xl"
+        class="block max-w-max bg-primary text-white rounded-full py-3 px-10 hover:bg-opacity-80 font-outfit md:tracking-[2px] tracking-[1.6px] text-base md:text-2xl"
         to="/news"
       >
         View more +
