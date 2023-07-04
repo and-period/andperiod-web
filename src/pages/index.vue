@@ -5,7 +5,7 @@ const { data } = await useAsyncData('index', () => {
 </script>
 
 <template>
-  <div class="w-full flex flex-col gap-10 mb-10 2xl:px-0 p-6">
+  <div class="w-full flex flex-col gap-10 mb-10 2xl:px-0 px-6 pb-6">
     <div>
       <div class="mx-auto max-w-max relative">
         <img
