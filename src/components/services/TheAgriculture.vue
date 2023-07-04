@@ -33,7 +33,7 @@
       class="flex justify-between max-w-[320px] w-full bg-primary text-white rounded-full font-outfit text-2xl px-8 py-3 text-center"
     >
       <p class="ml-auto mr-auto mt md:tracking-[2px] tracking-[1.6px]">
-        Product Site
+        Service Site
       </p>
       <svg
         width="20"
