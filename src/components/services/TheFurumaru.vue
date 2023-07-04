@@ -8,7 +8,7 @@
         class="flex gap-x-12 gap-y-14 items-center w-full lg:flex-row flex-col font-medium"
       >
         <div class="lg:w-1/2 w-full m-auto">
-          <services-the-furumaru-logo class="w-full" />
+          <services-the-furumaru-logo class="max-w-[400px]" />
         </div>
         <div class="lg:w-1/2 w-full flex flex-col">
           <p

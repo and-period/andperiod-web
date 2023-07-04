@@ -8,7 +8,7 @@
     >
       <div class="flex lg:flex-row flex-col gap-x-12 gap-y-14 w-full">
         <div class="lg:w-1/2 w-full m-auto">
-          <services-the-loss-nax-logo class="w-full" />
+          <services-the-loss-nax-logo class="max-w-[400px]" />
         </div>
         <div class="lg:w-1/2 w-full flex flex-col gap-6">
           <p
