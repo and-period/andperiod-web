@@ -23,6 +23,7 @@ export default <Partial<Config>>{
           css: {
             'font-size': '14px',
             'line-height': '32px',
+            color: theme('colors.body-text'),
             '@media (min-width: theme("screens.md"))': {
               'font-size': '20px',
               'line-height': '48px',
@@ -33,6 +34,7 @@ export default <Partial<Config>>{
               'letter-spacing': '0.1em',
               'margin-bottom': '40px',
               'line-height': '32px',
+              color: theme('colors.body-text'),
               '@media (min-width: theme("screens.md"))': {
                 'font-size': '24px',
                 'margin-bottom': '56px',
@@ -43,6 +45,7 @@ export default <Partial<Config>>{
               'font-size': '15px',
               'font-weight': 500,
               'line-height': '24px',
+              color: theme('colors.body-text'),
               '@media (min-width: theme("screens.md"))': {
                 'font-size': '20px',
                 'line-height': '48px',
@@ -52,6 +55,7 @@ export default <Partial<Config>>{
               'font-size': '14px',
               'line-height': '32px',
               'font-weight': 500,
+              color: theme('colors.body-text'),
               '@media (min-width: theme("screens.md"))': {
                 'font-size': '20px',
                 'line-height': '48px',
