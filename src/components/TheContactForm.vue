@@ -1,19 +1,11 @@
 <script setup lang="ts">
 import { ContactRequest } from '~~/types/props';
 
-const props = defineProps({
-  formData: {
-    type: Object as PropType<ContactRequest>,
-    default: (): ContactRequest => ({
-      name: '',
-      company: '',
-      email: '',
-      phoneNumber: '',
-      subject: '',
-      content: '',
-    }),
-  },
-});
+interface Props {
+  formData: ContactRequest;
+}
+
+const props = defineProps<Props>();
 
 const emit = defineEmits<{
   (e: 'update:form-data', formData: ContactRequest): void;
@@ -40,29 +32,29 @@ const onSubmit = (): void => {
             class="border ml-4 px-4 py-1 md:text-[15px] text-[11px] text-primary border-primary rounded-full"
             >必須</span
           >
-          <select
-            v-model="formDataValue.subject"
-            class="block mt-4 pl-4 w-full py-4 bg-white border border-primary rounded"
-            :class="{ 'text-gray': formDataValue.subject === '' }"
-            required
-            id="subject"
-          >
-            <option value="" disabled selected>
-              お問い合わせ内容をお選びください
-            </option>
-            <option value="オンラインマルシェ事業に関して">
-              オンラインマルシェ事業に関して
-            </option>
-            <option value="販路開拓支援事業に関して">
-              販路開拓支援事業に関して
-            </option>
-            <option value="フードロス対策事業に関して">
-              フードロス対策事業に関して
-            </option>
-            <option value="農業事業に関して">農業事業に関して</option>
-            <option value="その他">その他</option>
-          </select>
         </label>
+        <select
+          v-model="formDataValue.subject"
+          class="block mt-4 px-4 w-full py-4 bg-white border border-primary rounded"
+          :class="{ 'text-gray': formDataValue.subject === '' }"
+          required
+          id="subject"
+        >
+          <option value="" disabled selected>
+            お問い合わせ内容をお選びください
+          </option>
+          <option value="オンラインマルシェ事業に関して">
+            オンラインマルシェ事業に関して
+          </option>
+          <option value="販路開拓支援事業に関して">
+            販路開拓支援事業に関して
+          </option>
+          <option value="フードロス対策事業に関して">
+            フードロス対策事業に関して
+          </option>
+          <option value="農業事業に関して">農業事業に関して</option>
+          <option value="その他">その他</option>
+        </select>
       </div>
       <div>
         <label class="block" for="company">
@@ -121,7 +113,6 @@ const onSubmit = (): void => {
           class="block mt-4 pl-4 py-4 w-full border border-primary rounded"
           placeholder="例）090XXXXXXXX"
           required
-          type="number"
           id="phoneNumber"
         />
       </div>
