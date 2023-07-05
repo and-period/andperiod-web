@@ -93,8 +93,8 @@ const closeMenu = () => {
       class="absolute z-10 md:top-20 top-16 w-full bg-primary text-white flex flex-col h-[calc(100vh_-_60px)] p-8 gap-10 lg:hidden"
     >
       <nuxt-link to="/" @click="closeMenu">
-        <p class="text-xl">トップページ</p>
-        <span class="text-xs font-outfit"> Top </span>
+        <p class="text-xl tracking-[2px]">トップページ</p>
+        <span class="text-xs font-outfit tracking-[1.6px]"> Top </span>
       </nuxt-link>
       <nuxt-link
         v-for="(item, i) in linkItems"
@@ -102,10 +102,10 @@ const closeMenu = () => {
         :to="item.to"
         @click="closeMenu"
       >
-        <p class="text-xl">
+        <p class="text-xl tracking-[2px]">
           {{ item.title }}
         </p>
-        <span class="text-xs font-outfit">
+        <span class="text-xs font-outfit tracking-[1.6px]">
           {{ item.subTitle }}
         </span>
       </nuxt-link>
