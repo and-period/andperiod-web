@@ -42,7 +42,7 @@
         <p class="mb-10 text-xl">サービスフロー</p>
         <div class="flex items-center xl:gap-2 gap-4 xl:flex-row flex-col">
           <div
-            class="relative border border-primary rounded-full w-[228px] xl:h-[480px] h-[440px]"
+            class="relative border border-primary rounded-full xl:w-[228px] w-full max-w-[280px] xl:h-[480px] h-[440px]"
           >
             <p
               class="absolute top-[72px] text-primary text-[32px] w-full text-center"
@@ -59,7 +59,7 @@
           />
 
           <div
-            class="relative border border-primary rounded-full w-[228px] xl:h-[480px] h-[440px]"
+            class="relative border border-primary rounded-full xl:w-[228px] w-full max-w-[280px] xl:h-[480px] h-[440px]"
           >
             <p
               class="absolute top-[72px] text-primary text-[32px] w-full text-center"
@@ -76,7 +76,7 @@
           />
 
           <div
-            class="relative border border-primary rounded-full w-[228px] xl:h-[480px] h-[440px]"
+            class="relative border border-primary rounded-full xl:w-[228px] w-full max-w-[280px] xl:h-[480px] h-[440px]"
           >
             <p
               class="absolute top-[72px] text-primary text-[32px] w-full text-center"
@@ -93,7 +93,7 @@
           />
 
           <div
-            class="relative border border-primary rounded-full w-[228px] xl:h-[480px] h-[440px]"
+            class="relative border border-primary rounded-full xl:w-[228px] w-full max-w-[280px] xl:h-[480px] h-[440px]"
           >
             <p
               class="absolute top-[72px] text-primary text-[32px] w-full text-center"
