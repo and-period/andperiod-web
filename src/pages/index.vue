@@ -9,7 +9,7 @@ const { data } = await useAsyncData('index', () => {
     <div>
       <div class="mx-auto max-w-max relative">
         <picture>
-          <source media="(max-width:425px)" srcset="/img/top_sp.png" />
+          <source media="(max-width:425px)" srcset="/img/top_sp.jpg" />
           <img
             class="rounded-3xl min-h-[560px] object-cover"
             srcset=""
