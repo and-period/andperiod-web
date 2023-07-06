@@ -42,10 +42,10 @@
         <p class="mb-10 text-xl">サービスフロー</p>
         <div class="flex items-center xl:gap-2 gap-4 xl:flex-row flex-col">
           <div
-            class="relative border border-primary rounded-full w-[228px] xl:h-[480px] h-[440px]"
+            class="relative border border-primary rounded-full w-[228px] xl:h-[480px] h-[440px] tracking-[1.6px]"
           >
             <p
-              class="absolute top-[72px] text-primary text-[32px] w-full text-center"
+              class="absolute top-[72px] text-primary text-[32px] w-full text-center tracking-[1.6px]"
             >
               1. 調査
             </p>
@@ -62,11 +62,11 @@
             class="relative border border-primary rounded-full w-[228px] xl:h-[480px] h-[440px]"
           >
             <p
-              class="absolute top-[72px] text-primary text-[32px] w-full text-center"
+              class="absolute top-[72px] text-primary text-[32px] w-full text-center tracking-[1.6px]"
             >
               2. 企画
             </p>
-            <p class="absolute top-[155px] px-6 leading-8 text-base">
+            <p class="absolute top-[155px] px-6 leading-8 text-base tracking-[1.6px]">
               生産者の収入を増やすことを目的とし、廃棄するはずだった食材を使って主力商品のブランド価値が上がっていくような新しい商品の企画をします。
             </p>
           </div>
@@ -79,11 +79,11 @@
             class="relative border border-primary rounded-full w-[228px] xl:h-[480px] h-[440px]"
           >
             <p
-              class="absolute top-[72px] text-primary text-[32px] w-full text-center"
+              class="absolute top-[72px] text-primary text-[32px] w-full text-center tracking-[1.6px]"
             >
               3. 加工
             </p>
-            <p class="absolute top-[155px] px-6 leading-8 text-base">
+            <p class="absolute top-[155px] px-6 leading-8 text-base tracking-[1.6px]">
               配送料や加工料などの製造原価を踏まえて実現可能な加工会社を探し、試作の製造や試食試飲といった企画商品の製品化をサポートします。
             </p>
           </div>
@@ -96,11 +96,11 @@
             class="relative border border-primary rounded-full w-[228px] xl:h-[480px] h-[440px]"
           >
             <p
-              class="absolute top-[72px] text-primary text-[32px] w-full text-center"
+              class="absolute top-[72px] text-primary text-[32px] w-full text-center tracking-[1.6px]"
             >
               4. 販売
             </p>
-            <p class="absolute top-[155px] px-6 leading-8 text-base">
+            <p class="absolute top-[155px] px-6 leading-8 text-base tracking-[1.6px]">
               広告やECサイト、SNSを駆使したマーケティング、豊富なノウハウから最適な販売先の選定や営業方法など販売戦略の支援をします。
             </p>
           </div>
