@@ -42,14 +42,14 @@
         <p class="mb-10 text-xl">サービスフロー</p>
         <div class="flex items-center xl:gap-2 gap-4 xl:flex-row flex-col">
           <div
-            class="relative border border-primary rounded-full w-[228px] xl:h-[480px] h-[440px] tracking-[1.6px]"
+            class="relative border border-primary rounded-full xl:w-[228px] w-full max-w-[280px] xl:h-[480px] h-[440px]"
           >
             <p
               class="absolute top-[72px] text-primary text-[32px] w-full text-center tracking-[1.6px]"
             >
               1. 調査
             </p>
-            <p class="absolute top-[155px] px-6 leading-8 text-base">
+            <p class="absolute top-[155px] px-6 leading-8 text-base tracking-[1.6px]">
               生産者の方のお困りごと（使い道のある食材を加工過程で大量に廃棄している、天候の影響で大量の農作物を抱えてしまった等）を拾い上げます。
             </p>
           </div>
@@ -59,7 +59,7 @@
           />
 
           <div
-            class="relative border border-primary rounded-full w-[228px] xl:h-[480px] h-[440px]"
+            class="relative border border-primary rounded-full xl:w-[228px] w-full max-w-[280px] xl:h-[480px] h-[440px]"
           >
             <p
               class="absolute top-[72px] text-primary text-[32px] w-full text-center tracking-[1.6px]"
@@ -76,7 +76,7 @@
           />
 
           <div
-            class="relative border border-primary rounded-full w-[228px] xl:h-[480px] h-[440px]"
+            class="relative border border-primary rounded-full xl:w-[228px] w-full max-w-[280px] xl:h-[480px] h-[440px]"
           >
             <p
               class="absolute top-[72px] text-primary text-[32px] w-full text-center tracking-[1.6px]"
@@ -93,7 +93,7 @@
           />
 
           <div
-            class="relative border border-primary rounded-full w-[228px] xl:h-[480px] h-[440px]"
+            class="relative border border-primary rounded-full xl:w-[228px] w-full max-w-[280px] xl:h-[480px] h-[440px]"
           >
             <p
               class="absolute top-[72px] text-primary text-[32px] w-full text-center tracking-[1.6px]"
