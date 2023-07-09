@@ -1,4 +1,10 @@
 <script setup lang="ts">
+useSeoMeta({
+  title: 'お問い合わせ - 株式会社アンドピリオド and period',
+  description:
+    '株式会社アンドピリオド（and period）への問い合わせはフォームよりお願いします。',
+});
+
 import { ContactRequest } from '~~/types/props';
 
 const formData = ref<ContactRequest>({

@@ -1,4 +1,8 @@
 <script setup lang="ts">
+useSeoMeta({
+  title: 'ニュース一覧 - 株式会社アンドピリオド and period',
+});
+
 const PER_PAGE_ITEM = 9;
 const currentPage = ref<number>(1);
 
@@ -47,11 +51,11 @@ watch(currentPage, () => {
   <div class="md:px-24 px-6">
     <div class="w-full text-left whitespace-nowrap my-20">
       <h2
-          class="text-primary text-[40px] md:text-[56px] mb-2 font-outfit tracking-widest font-medium"
-        >
-          News
-        </h2>
-        <p class="text-sm md:text-xl font-medium tracking-[2px]">ニュース</p>
+        class="text-primary text-[40px] md:text-[56px] mb-2 font-outfit tracking-widest font-medium"
+      >
+        News
+      </h2>
+      <p class="text-sm md:text-xl font-medium tracking-[2px]">ニュース</p>
     </div>
 
     <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10">

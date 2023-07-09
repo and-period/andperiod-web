@@ -1,5 +1,5 @@
 <script setup lang="ts">
-useHead({
+useSeoMeta({
   titleTemplate: '%s - 株式会社アンドピリオド and period',
 });
 

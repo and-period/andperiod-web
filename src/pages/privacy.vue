@@ -1,3 +1,11 @@
+<script setup lang="ts">
+useSeoMeta({
+  title: 'プライバシーポリシー - 株式会社アンドピリオド and period',
+  description:
+    '株式会社アンドピリオド（and period）のプライバシーポリシーです。',
+});
+</script>
+
 <template>
   <ContentDoc path="/privacy/privacy" v-slot="{ doc }">
     <ContentRenderer
