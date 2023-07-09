@@ -1,6 +1,6 @@
 ---
 title: 'ホームページを開設しました！'
-description: 'meta description of the page'
+description: '株式会社アンドピリオド（and period）のホームページを開設しました。'
 tag: 'お知らせ'
 publishAt: '2023.07.01'
 thumbnailUrl: '/img/news/2023_0701/thumbnail.JPG'

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-  titleTemplate: '%s - and period',
+  titleTemplate: '%s - 株式会社アンドピリオド and period',
 });
 
 const route = useRoute();
