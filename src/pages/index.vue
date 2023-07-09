@@ -9,17 +9,17 @@ const { data } = await useAsyncData('index', () => {
     <div>
       <div class="mx-auto max-w-max relative">
         <picture>
-          <source media="(max-width:425px)" srcset="/img/top_sp.jpg" />
+          <source srcset="/img/top.jpg" />
           <img
             class="rounded-3xl min-h-[560px] object-cover"
             srcset=""
-            src="/img/top.png"
+            src="/img/top.jpg"
             loading="lazy"
             alt="top page thumbnail"
           />
         </picture>
         <div
-          class="absolute lg:top-24 top-[32px] lg:right-[84px] left-[36px] inline-flex flex-col items-start gap-6 lg:text-[32px] text-[20px] text-primary font-medium lg:tracking-[.25em] tracking-[0.75em] [writing-mode:vertical-rl]"
+          class="absolute lg:top-24 top-[32px] lg:left-[200px] left-[36px] inline-flex flex-col items-start gap-6 lg:text-[32px] text-[20px] text-primary font-medium lg:tracking-[.25em] tracking-[0.75em] [writing-mode:vertical-rl]"
         >
           <span class="lg:pt-4 lg:pb-2 py-2 inline-block rounded bg-white"
             >継承主体の現在から</span
