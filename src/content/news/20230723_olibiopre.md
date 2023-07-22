@@ -3,7 +3,7 @@ title: '「OLIBIO」 8月より先行予約販売開始'
 description: '「OLIBIO」 8月よりCAMPFIREにて先行予約販売開始します。'
 tag: 'お知らせ'
 publishAt: '2023.07.23'
-thumbnailUrl: '/img/news/2023_0723/content.png'
+thumbnailUrl: '/img/news/2023_0723/thumbnail.png'
 ---
 
 # 「OLIBIO」 8月よりCAMPFIREにて先行予約販売を開始します！
