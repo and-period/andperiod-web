@@ -7,16 +7,22 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "preview-static": "npx http-server .output/public",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint --ext .js,.ts,.vue ."
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@nuxtjs/tailwindcss": "^6.7.2",
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/typography": "^0.5.9",
     "@types/node": "^18",
+    "eslint": "^8.45.0",
+    "eslint-plugin-tailwindcss": "^3.13.0",
     "nuxt": "^3.5.2",
-    "sitemap": "^7.1.1"
+    "sitemap": "^7.1.1",
+    "typescript": "^5.1.6",
+    "vue-eslint-parser": "^9.3.1"
   },
   "dependencies": {
     "@nuxt/content": "^2.7.0"
