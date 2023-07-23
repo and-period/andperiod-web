@@ -29,16 +29,16 @@ const onSubmit = (): void => {
         <label class="block" for="subject">
           <span class="text-sm md:text-base">お問い合わせ内容</span>
           <span
-            class="border ml-4 px-4 py-1 md:text-[15px] text-[11px] text-primary border-primary rounded-full"
+            class="ml-4 rounded-full border border-primary px-4 py-1 text-[11px] text-primary md:text-[15px]"
             >必須</span
           >
         </label>
         <select
+          id="subject"
           v-model="formDataValue.subject"
-          class="block mt-4 px-4 w-full py-4 bg-white border border-primary rounded"
+          class="mt-4 block w-full rounded border border-primary bg-white p-4"
           :class="{ 'text-gray': formDataValue.subject === '' }"
           required
-          id="subject"
         >
           <option value="" disabled selected>
             お問い合わせ内容をお選びください
@@ -61,42 +61,42 @@ const onSubmit = (): void => {
           <span class="text-sm md:text-base">貴社名</span>
         </label>
         <input
-          v-model="formDataValue.company"
-          class="block mt-4 pl-4 py-4 w-full border border-primary rounded"
-          placeholder="例）株式会社アンドピリオド"
           id="company"
+          v-model="formDataValue.company"
+          class="mt-4 block w-full rounded border border-primary py-4 pl-4"
+          placeholder="例）株式会社アンドピリオド"
         />
       </div>
       <div>
         <label class="block" for="name">
           <span class="">お名前</span>
           <span
-            class="border ml-4 px-4 py-1 md:text-[15px] text-[11px] text-primary border-primary rounded-full"
+            class="ml-4 rounded-full border border-primary px-4 py-1 text-[11px] text-primary md:text-[15px]"
             >必須</span
           >
         </label>
         <input
+          id="name"
           v-model="formDataValue.name"
-          class="block mt-4 pl-4 py-4 w-full border border-primary rounded"
+          class="mt-4 block w-full rounded border border-primary py-4 pl-4"
           placeholder="例）山田 太郎"
           required
-          id="name"
         />
       </div>
       <div>
         <label class="block" for="email">
           <span class="text-sm md:text-base">メールアドレス</span>
           <span
-            class="border ml-4 px-4 py-1 md:text-[15px] text-[11px] text-primary border-primary rounded-full"
+            class="ml-4 rounded-full border border-primary px-4 py-1 text-[11px] text-primary md:text-[15px]"
             >必須</span
           >
         </label>
         <input
+          id="email"
           v-model="formDataValue.email"
-          class="block mt-4 pl-4 py-4 w-full border border-primary rounded"
+          class="mt-4 block w-full rounded border border-primary py-4 pl-4"
           placeholder="例）example@and-period.co.jp"
           type="email"
-          id="email"
           required
         />
       </div>
@@ -104,46 +104,46 @@ const onSubmit = (): void => {
         <label class="block" for="phoneNumber">
           <span class="text-sm md:text-base">電話番号（ハイフンなし）</span>
           <span
-            class="border ml-4 px-4 py-1 md:text-[15px] text-[11px] text-primary border-primary rounded-full"
+            class="ml-4 rounded-full border border-primary px-4 py-1 text-[11px] text-primary md:text-[15px]"
             >必須</span
           >
         </label>
         <input
+          id="phoneNumber"
           v-model="formDataValue.phoneNumber"
-          class="block mt-4 pl-4 py-4 w-full border border-primary rounded"
+          class="mt-4 block w-full rounded border border-primary py-4 pl-4"
           placeholder="例）090XXXXXXXX"
           required
-          id="phoneNumber"
         />
       </div>
       <div>
         <label class="block" for="content">
           <span class="text-sm md:text-base">お問い合わせ詳細</span>
           <span
-            class="border ml-4 px-4 py-1 md:text-[15px] text-[11px] text-primary border-primary rounded-full"
+            class="ml-4 rounded-full border border-primary px-4 py-1 text-[11px] text-primary md:text-[15px]"
             >必須</span
           >
         </label>
         <textarea
+          id="content"
           v-model="formDataValue.content"
-          class="block mt-4 pl-4 pt-4 py-[400px] w-full border border-primary rounded"
+          class="mt-4 block w-full rounded border border-primary py-[400px] pl-4 pt-4"
           placeholder="お問い合わせ内容を具体的にご記入ください"
           required
-          id="content"
         ></textarea>
       </div>
 
       <div
-        class="text-sm md:text-base text-center leading-8 whitespace-wrap md:tracing-[1.6px] tracking-[1.4px]"
+        class="whitespace-wrap md:tracing-[1.6px] text-center text-sm leading-8 tracking-[1.4px] md:text-base"
       >
         <p>
           <u><a href="/privacy">プライバシーポリシー</a></u
           >をご確認いただき、同意いただける場合のみお進みください。
         </p>
       </div>
-      <div class="flex justify-center mb-20">
+      <div class="mb-20 flex justify-center">
         <button
-          class="block max-w-max bg-primary text-white rounded-full py-3 md:py-4 px-[80px] md:text-xl text-base md:text-l hover:bg-opacity-80 md:tracing-[2.0px] tracking-[1.6px]"
+          class="md:text-l md:tracing-[2.0px] block max-w-max rounded-full bg-primary px-[80px] py-3 text-base tracking-[1.6px] text-white hover:bg-opacity-80 md:py-4 md:text-xl"
           type="submit"
         >
           同意して送信する

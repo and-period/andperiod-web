@@ -13,7 +13,7 @@ const handleCloseMenu = () => {
 <template>
   <div
     :class="{
-      'bg-default flex flex-col h-full': true,
+      'flex h-full flex-col bg-default': true,
       'overflow-hidden': isOpen,
     }"
   >
@@ -23,8 +23,8 @@ const handleCloseMenu = () => {
       @open="handleOpenMenu"
       @close="handleCloseMenu"
     />
-    <div class="grow flex justify-center">
-      <div class="max-w-[1200px] w-full">
+    <div class="flex grow justify-center">
+      <div class="w-full max-w-[1200px]">
         <slot />
       </div>
     </div>

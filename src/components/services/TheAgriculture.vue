@@ -1,12 +1,12 @@
 <template>
   <services-the-service-content-box title="Agriculture" subtitle="農業事業">
-    <div class="flex items-center w-full lg:flex-row flex-col gap-10">
+    <div class="flex w-full flex-col items-center gap-10 lg:flex-row">
       <div
-        class="flex flex-col gap-6 lg:order-1 order-2 lg:w-1/2 w-full mb-[40px] md:mb-[80px]"
+        class="order-2 mb-[40px] flex w-full flex-col gap-6 md:mb-[80px] lg:order-1 lg:w-1/2"
       >
         <h2 class="text-2xl font-medium">レモンを栽培し自社ECサイトで販売</h2>
         <div
-          class="text-base flex flex-col gap-6 md:tracing-[2.4px] tracking-[1.6px] md:leading-10 leading-8 font-medium"
+          class="md:tracing-[2.4px] flex flex-col gap-6 text-base font-medium leading-8 tracking-[1.6px] md:leading-10"
         >
           <p>
             広島県の離島・大崎上島にて30aのレモン栽培と5haのレモン園地の栽培委託を請け負っています。（※面積は今後も拡大予定）栽培方法は広島県の定める「特別栽培農産物」基準での栽培。一般的な農産物よりも「5割以上」農薬や除草剤の使用を低減した栽培を行なっています。
@@ -18,11 +18,11 @@
         </div>
       </div>
 
-      <div class="lg:order-2 order-1 lg:w-1/2 w-full mb-auto">
+      <div class="order-1 mb-auto w-full lg:order-2 lg:w-1/2">
         <img
           src="/img/services/agriculture/1.png"
           alt="大崎上島の農園のイメージ写真"
-          class="h-[320px] mb-auto object-contain"
+          class="mb-auto h-[320px] object-contain"
         />
       </div>
     </div>
@@ -30,9 +30,9 @@
     <a
       href="https://www.kamijimafarm.com/"
       target="_blank"
-      class="flex justify-between max-w-[320px] w-full bg-primary text-white rounded-full font-outfit text-2xl px-8 py-3 text-center"
+      class="flex w-full max-w-[320px] justify-between rounded-full bg-primary px-8 py-3 text-center font-outfit text-2xl text-white"
     >
-      <p class="ml-auto mr-auto mt md:tracking-[2px] tracking-[1.6px]">
+      <p class="mt mx-auto tracking-[1.6px] md:tracking-[2px]">
         Service Site
       </p>
       <svg

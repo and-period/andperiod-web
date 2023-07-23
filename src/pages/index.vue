@@ -1,17 +1,17 @@
 <script setup lang="ts">
 const { data } = await useAsyncData('index', () => {
-  return queryContent('news').sort({ publishAt: -1 }).limit(3).find();
-});
+  return queryContent('news').sort({ publishAt: -1 }).limit(3).find()
+})
 </script>
 
 <template>
-  <div class="w-full flex flex-col gap-20 mb-10 2xl:px-0 px-6 pb-6">
+  <div class="mb-10 flex w-full flex-col gap-20 px-6 pb-6 2xl:px-0">
     <div>
-      <div class="mx-auto max-w-max relative">
+      <div class="relative mx-auto max-w-max">
         <picture>
           <source media="(max-width:425px)" srcset="/img/top_sp.jpg" />
           <img
-            class="rounded-3xl min-h-[560px] object-cover"
+            class="min-h-[560px] rounded-3xl object-cover"
             srcset=""
             src="/img/top.jpg"
             loading="lazy"
@@ -19,15 +19,15 @@ const { data } = await useAsyncData('index', () => {
           />
         </picture>
         <div
-          class="absolute lg:top-24 top-[32px] lg:left-[200px] left-[36px] inline-flex flex-col items-start gap-6 lg:text-[32px] text-[20px] text-primary font-medium lg:tracking-[.25em] tracking-[0.75em] [writing-mode:vertical-rl]"
+          class="absolute left-[36px] top-[32px] inline-flex flex-col items-start gap-6 text-[20px] font-medium tracking-[0.75em] text-primary [writing-mode:vertical-rl] lg:left-[200px] lg:top-24 lg:text-[32px] lg:tracking-[.25em]"
         >
-          <span class="lg:pt-4 lg:pb-2 py-2 inline-block rounded bg-white"
+          <span class="inline-block rounded bg-white py-2 lg:pb-2 lg:pt-4"
             >継承主体の現在から</span
           >
-          <span class="lg:pt-4 lg:pb-2 py-2 inline-block rounded bg-white"
+          <span class="inline-block rounded bg-white py-2 lg:pb-2 lg:pt-4"
             >新たな一次産業を</span
           >
-          <span class="lg:pt-4 lg:pb-2 py-2 inline-block rounded bg-white"
+          <span class="inline-block rounded bg-white py-2 lg:pb-2 lg:pt-4"
             >ともに創造する未来へ</span
           >
         </div>
@@ -35,27 +35,27 @@ const { data } = await useAsyncData('index', () => {
     </div>
 
     <div
-      class="bg-white rounded-3xl w-full items-center py-8 px-6 gap-x-20 gap-y-10 flex flex-col lg:flex-row md:py-20 md:px-24"
+      class="flex w-full flex-col items-center gap-x-20 gap-y-10 rounded-3xl bg-white px-6 py-8 md:px-24 md:py-20 lg:flex-row"
     >
-      <div class="w-full text-left whitespace-nowrap">
+      <div class="w-full whitespace-nowrap text-left">
         <h2
-          class="text-primary text-[40px] md:text-[56px] mb-2 font-outfit tracking-widest font-medium"
+          class="mb-2 font-outfit text-[40px] font-medium tracking-widest text-primary md:text-[56px]"
         >
           Service
         </h2>
-        <p class="text-sm md:text-xl font-medium tracking-[2px]">
+        <p class="text-sm font-medium tracking-[2px] md:text-xl">
           サービスについて
         </p>
       </div>
       <div class="flex flex-col gap-y-4">
         <p
-          class="font-medium md:tracking-[2px] tracking-[1.6px] text-base md:text-xl leading-8 md:leading-[48px]"
+          class="text-base font-medium leading-8 tracking-[1.6px] md:text-xl md:leading-[48px] md:tracking-[2px]"
         >
           ライブ配信で全国の「ふるさと」を感じながら新しい購買体験が可能となるオンラインマルシェサービス「ふるマル」を中心としたシステム開発事業・販路開拓事業・フードロス対策事業など生産者・消費者双方に寄り添ったサービスの展開を行っています。
         </p>
         <div class="flex justify-center md:justify-end">
           <nuxt-link
-            class="block max-w-max bg-primary text-white rounded-full py-3 px-10 hover:bg-opacity-80 font-outfit md:tracking-[2px] tracking-[1.6px] text-base md:text-2xl"
+            class="block max-w-max rounded-full bg-primary px-10 py-3 font-outfit text-base tracking-[1.6px] text-white hover:bg-opacity-80 md:text-2xl md:tracking-[2px]"
             to="/services"
           >
             View more +
@@ -65,18 +65,18 @@ const { data } = await useAsyncData('index', () => {
     </div>
 
     <div
-      class="bg-white rounded-3xl w-full flex flex-col py-8 px-6 gap-y-10 items-center md:py-20 md:px-24"
+      class="flex w-full flex-col items-center gap-y-10 rounded-3xl bg-white px-6 py-8 md:px-24 md:py-20"
     >
-      <div class="w-full text-left whitespace-nowrap">
+      <div class="w-full whitespace-nowrap text-left">
         <h2
-          class="text-primary text-[40px] md:text-[56px] mb-2 font-outfit tracking-widest font-medium"
+          class="mb-2 font-outfit text-[40px] font-medium tracking-widest text-primary md:text-[56px]"
         >
           News
         </h2>
-        <p class="text-sm md:text-xl font-medium tracking-[2px]">ニュース</p>
+        <p class="text-sm font-medium tracking-[2px] md:text-xl">ニュース</p>
       </div>
 
-      <div class="w-full gap-8 grid lg:grid-cols-3 grid-cols-1">
+      <div class="grid w-full grid-cols-1 gap-8 lg:grid-cols-3">
         <nuxt-link v-for="(item, i) in data" :key="i" :to="item._path">
           <the-news-item
             :img-src="item.thumbnailUrl"
@@ -88,7 +88,7 @@ const { data } = await useAsyncData('index', () => {
       </div>
 
       <nuxt-link
-        class="block max-w-max bg-primary text-white rounded-full py-3 px-10 hover:bg-opacity-80 font-outfit md:tracking-[2px] tracking-[1.6px] text-base md:text-2xl"
+        class="block max-w-max rounded-full bg-primary px-10 py-3 font-outfit text-base tracking-[1.6px] text-white hover:bg-opacity-80 md:text-2xl md:tracking-[2px]"
         to="/news"
       >
         View more +

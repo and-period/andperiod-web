@@ -39,16 +39,16 @@ const nextPath = computed(() => {
 </script>
 
 <template>
-  <div class="md:px-24 px-6">
+  <div class="px-6 md:px-24">
     <ContentDoc v-slot="{ doc }">
-      <div class="md:flex items-center text-primary gap-4 my-10">
+      <div class="my-10 items-center gap-4 text-primary md:flex">
         <div
-          class="font-medium md:text-2xl text-base font-outfit tracking-[2px]"
+          class="font-outfit text-base font-medium tracking-[2px] md:text-2xl"
         >
           {{ doc.publishAt }}
         </div>
         <div
-          class="border max-w-max border-primary md:text-sm text-[11px] md:mt-0 mt-4 rounded-xl px-3"
+          class="mt-4 max-w-max rounded-xl border border-primary px-3 text-[11px] md:mt-0 md:text-sm"
         >
           {{ doc.tag }}
         </div>
@@ -57,7 +57,7 @@ const nextPath = computed(() => {
       <ContentRenderer class="prose prose-stone max-w-none" :value="doc" />
 
       <div
-        class="flex justify-center my-10 md:gap-[120px] md:text-base gap-6 text-sm whitespace-nowrap"
+        class="my-10 flex justify-center gap-6 whitespace-nowrap text-sm md:gap-[120px] md:text-base"
       >
         <nuxt-link
           :to="prevPath"
