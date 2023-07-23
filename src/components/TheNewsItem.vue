@@ -14,7 +14,7 @@ defineProps<Props>();
     <img
       :src="imgSrc"
       :alt="`${title}のサムネイル画像`"
-      class="aspect-[4/3] object-contain bg-gray-200 rounded-md"
+      class="aspect-[4/3] object-contain rounded-md"
     />
     <div class="flex gap-2 items-center text-primary">
       <span class="md:text-base text-sm font-outfit tracking-[1.6px]">
