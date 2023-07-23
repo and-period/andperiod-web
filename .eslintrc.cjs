@@ -1,23 +1,28 @@
 // https://github.com/nuxt/eslint-config#nuxteslint-config
 module.exports = {
   root: true,
-  extends: ['@nuxtjs/eslint-config-typescript', 'plugin:tailwindcss/recommended'],
+  extends: [
+    '@nuxtjs/eslint-config-typescript',
+    'plugin:tailwindcss/recommended',
+    'prettier',
+  ],
   plugins: ['tailwindcss'],
   overrides: [
     {
       files: ['*.vue'],
-      parser: 'vue-eslint-parser'
-    }
+      parser: 'vue-eslint-parser',
+    },
   ],
   rules: {
     '@typescript-eslint/no-unused-vars': 'off',
     'no-unused-vars': [
-      'error', {
+      'error',
+      {
         args: 'none',
         varsIgnorePattern: '^_',
         caughtErrorsIgnorePattern: '^_',
-        destructuredArrayIgnorePattern: '^_'
-      }
-    ]
-  }
+        destructuredArrayIgnorePattern: '^_',
+      },
+    ],
+  },
 }
