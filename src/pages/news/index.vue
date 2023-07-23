@@ -36,7 +36,7 @@ const handleClickNextButton = () => {
 
 const { data: articles, refresh } = await useAsyncData('news', () => {
   return queryContent('/news')
-    .sort({ publishAt: 1 })
+    .sort({ publishAt: -1 })
     .limit(PER_PAGE_ITEM)
     .skip(PER_PAGE_ITEM * (currentPage.value - 1))
     .find();

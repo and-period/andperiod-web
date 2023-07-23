@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const { data } = await useAsyncData('index', () => {
-  return queryContent('news').sort({ publishAt: 1 }).limit(3).find();
+  return queryContent('news').sort({ publishAt: -1 }).limit(3).find();
 });
 </script>
 
