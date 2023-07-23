@@ -11,7 +11,6 @@ export default <Partial<Config>>{
         default: '#F9F9F9',
         white: '#FFFFFF',
         primary: '#64C4D7',
-        gray: '#B3B3B3',
         'body-text': '#404040',
       },
       screens: {
