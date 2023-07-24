@@ -1,41 +1,40 @@
 <script setup lang="ts">
 useSeoMeta({
   titleTemplate: '%s - 株式会社アンドピリオド and period',
-});
+})
 
-const route = useRoute();
+const route = useRoute()
 
 const currentPath = computed<string>(() => {
-  const slug = route.params.slug;
+  const slug = route.params.slug
   if (typeof slug === 'string') {
-    return slug;
+    return slug
   } else {
-    return slug.join('/');
+    return slug.join('/')
   }
-});
+})
 
 const { data } = await useAsyncData('article', () => {
-  return queryContent()
+  return queryContent('news')
     .only('_path')
-    .sort({ publishAt: 1 })
-    .findSurround(`/news/${currentPath.value}`);
-});
+    .findSurround(`/news/${currentPath.value}`)
+})
 
 const prevPath = computed(() => {
   if (data.value) {
-    return data.value[0]?._path || '';
+    return data.value[0]?._path || ''
   } else {
-    return '';
+    return ''
   }
-});
+})
 
 const nextPath = computed(() => {
   if (data.value) {
-    return data.value[1]?._path || '';
+    return data.value[1]?._path || ''
   } else {
-    return '';
+    return ''
   }
-});
+})
 </script>
 
 <template>
