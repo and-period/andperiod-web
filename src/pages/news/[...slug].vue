@@ -60,23 +60,23 @@ watch(
         class="my-10 flex justify-center gap-6 whitespace-nowrap text-sm md:gap-[120px] md:text-base"
       >
         <nuxt-link
-          :to="prevPath"
-          :class="{
-            block: true,
-            'text-primary': prevPath,
-            'opacity-25': !prevPath,
-          }"
-          >← 前の記事へ</nuxt-link
-        >
-        <nuxt-link to="/news" class="block text-primary">一覧に戻る</nuxt-link>
-        <nuxt-link
           :to="nextPath"
           :class="{
             block: true,
             'text-primary': nextPath,
             'opacity-25': !nextPath,
           }"
-          >次の記事へ →</nuxt-link
+          >← 次の記事へ</nuxt-link
+        >
+        <nuxt-link to="/news" class="block text-primary">一覧に戻る</nuxt-link>
+        <nuxt-link
+          :to="prevPath"
+          :class="{
+            block: true,
+            'text-primary': prevPath,
+            'opacity-25': !prevPath,
+          }"
+          >前の記事へ →</nuxt-link
         >
       </div>
     </ContentDoc>
