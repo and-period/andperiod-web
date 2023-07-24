@@ -48,21 +48,21 @@ watch(currentPage, () => {
 </script>
 
 <template>
-  <div class="md:px-24 px-6">
-    <div class="w-full text-left whitespace-nowrap my-20">
+  <div class="px-6 md:px-24">
+    <div class="my-20 w-full whitespace-nowrap text-left">
       <h2
-        class="text-primary text-[40px] md:text-[56px] mb-2 font-outfit tracking-widest font-medium"
+        class="mb-2 font-outfit text-[40px] font-medium tracking-widest text-primary md:text-[56px]"
       >
         News
       </h2>
-      <p class="text-sm md:text-xl font-medium tracking-[2px]">ニュース</p>
+      <p class="text-sm font-medium tracking-[2px] md:text-xl">ニュース</p>
     </div>
 
-    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10">
+    <div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
       <nuxt-link
-        :to="article._path"
         v-for="article in articles"
         :key="article._path"
+        :to="article._path"
       >
         <the-news-item
           :img-src="article.thumbnailUrl"
@@ -90,7 +90,7 @@ watch(currentPage, () => {
         :key="page"
         :class="{
           'h-10 w-10 px-4 py-2': true,
-          'bg-primary text-white rounded-full': currentPage === page,
+          'rounded-full bg-primary text-white': currentPage === page,
           'text-primary': currentPage !== page,
         }"
         @click="handleClickPageButton(page)"

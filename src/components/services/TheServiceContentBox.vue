@@ -1,24 +1,24 @@
 <script setup lang="ts">
 interface Props {
-  title: string;
-  subtitle: string;
+  title: string
+  subtitle: string
 }
 
-defineProps<Props>();
+defineProps<Props>()
 </script>
 
 <template>
   <div
-    class="bg-white rounded-3xl w-full flex flex-col py-8 px-6 items-center md:py-20 md:px-24"
+    class="flex w-full flex-col items-center rounded-3xl bg-white px-6 py-8 md:px-24 md:py-20"
   >
     <div class="w-full text-left font-medium">
       <h2
-        class="text-primary text-[24px] md:text-[40px] md:tracking-[4px] tracking-[2px] mb-4 font-outfit"
+        class="mb-4 font-outfit text-[24px] tracking-[2px] text-primary md:text-[40px] md:tracking-[4px]"
       >
         {{ title }}
       </h2>
       <p
-        class="text-[14px] md:text-[20px] md:text-xl tracking-widest mb-[40px] md:mb-[120px]"
+        class="mb-[40px] text-[14px] tracking-widest md:mb-[120px] md:text-[20px]"
       >
         {{ subtitle }}
       </p>

@@ -3,13 +3,13 @@ useSeoMeta({
   title: 'プライバシーポリシー - 株式会社アンドピリオド and period',
   description:
     '株式会社アンドピリオド（and period）のプライバシーポリシーです。',
-});
+})
 </script>
 
 <template>
-  <ContentDoc path="/privacy/privacy" v-slot="{ doc }">
+  <ContentDoc v-slot="{ doc }" path="/privacy/privacy">
     <ContentRenderer
-      class="privacy-md prose prose-stone max-w-none px-6 md:mt-[120px] mt-12 mb-20"
+      class="privacy-md prose prose-stone mb-20 mt-12 max-w-none px-6 md:mt-[120px]"
       :value="doc"
     />
   </ContentDoc>

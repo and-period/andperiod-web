@@ -4,7 +4,7 @@
     subtitle="販路開拓支援事業"
   >
     <div
-      class="flex flex-col gap-6 font-medium mr-auto tracking-[1.4px] md:tracking-[2.0px] leading-[32px]"
+      class="mr-auto flex flex-col gap-6 font-medium leading-[32px] tracking-[1.4px] md:tracking-[2.0px]"
     >
       <h2 class="text-[20px] md:text-[24px]">
         生産者の新しい収入源をつくり出し、産地・産品の魅力を発信する
@@ -14,11 +14,11 @@
       </p>
     </div>
 
-    <div class="mb-[40px] md:mb-[80px] mt-[80px] font-medium">
+    <div class="mb-[40px] mt-[80px] font-medium md:mb-[80px]">
       <p class="mb-[40px] text-xl">事例紹介</p>
-      <div class="flex items-center w-full lg:flex-row flex-col gap-10">
+      <div class="flex w-full flex-col items-center gap-10 lg:flex-row">
         <div
-          class="flex flex-col gap-6 lg:order-1 order-2 lg:w-1/2 w-full tracking-[1.4px] md:tracking-[2.0px] leading-[32px] md:leading-[40px]"
+          class="order-2 flex w-full flex-col gap-6 leading-[32px] tracking-[1.4px] md:leading-[40px] md:tracking-[2.0px] lg:order-1 lg:w-1/2"
         >
           <h2 class="text-[20px] md:text-2xl">
             地元の甘夏農家と老舗酒蔵をつないで、世界にひとつの甘夏風味のクラフトジン製作の販路を開拓
@@ -27,11 +27,11 @@
             味と香り共に遜色無いが成品として出荷できない甘夏を一括で仕入れ、地元の農産物で新たな商品を開発したいというニーズのある酒蔵でご活用いただけました。
           </p>
         </div>
-        <div class="lg:order-2 order-1 lg:w-1/2 w-full">
+        <div class="order-1 w-full lg:order-2 lg:w-1/2">
           <img
             src="/img/services/market-development/1.png"
             alt="クラフトジン瀬戸内 甘夏のボトル"
-            class="h-[320px] m-auto"
+            class="m-auto h-[320px]"
           />
         </div>
       </div>
@@ -40,9 +40,9 @@
     <a
       href="https://www.sempuku-miyakeya.com/smartphone/detail.html?id=000000000478"
       target="_blank"
-      class="flex justify-between max-w-[320px] w-full bg-primary text-white rounded-full font-outfit text-2xl px-8 py-3 text-center"
+      class="flex w-full max-w-[320px] justify-between rounded-full bg-primary px-8 py-3 text-center font-outfit text-2xl text-white"
     >
-      <p class="ml-auto mr-auto md:tracking-[2px] tracking-[1.6px]">
+      <p class="mx-auto tracking-[1.6px] md:tracking-[2px]">
         Product Site
       </p>
       <svg

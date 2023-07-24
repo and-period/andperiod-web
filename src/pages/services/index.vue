@@ -7,26 +7,26 @@ useSeoMeta({
 </script>
 
 <template>
-  <div class="2xl:px-0 px-6 pb-6">
-    <div class="my-20 flex lg:flex-row flex-col lg:gap-20 gap-10">
-      <div class="text-left font-medium whitespace-nowrap">
+  <div class="px-6 pb-6 2xl:px-0">
+    <div class="my-20 flex flex-col gap-10 lg:flex-row lg:gap-20">
+      <div class="whitespace-nowrap text-left font-medium">
         <h2
-          class="text-primary text-[32px] md:text-[56px] tracking-widest mb-2 font-outfit"
+          class="mb-2 font-outfit text-[32px] tracking-widest text-primary md:text-[56px]"
         >
           Service
         </h2>
-        <p class="text-[13px] md:text-xl tracking-widest">サービスについて</p>
+        <p class="text-[13px] tracking-widest md:text-xl">サービスについて</p>
       </div>
     </div>
 
     <div
-      class="grid lg:grid-cols-2 grid-cols-1 gap-y-8 gap-x-[18px] mb-20 text-base md:text-2xl"
+      class="mb-20 grid grid-cols-1 gap-x-[18px] gap-y-8 text-base md:text-2xl lg:grid-cols-2"
     >
       <a
         href="#furumaru"
-        class="flex justify-between flex-row w-full bg-primary text-white rounded-full py-4 md:py-6 px-10 hover:bg-opacity-80 md:tracing-[2.4px] tracking-[1.6px]"
+        class="md:tracing-[2.4px] flex w-full flex-row justify-between rounded-full bg-primary px-10 py-4 tracking-[1.6px] text-white hover:bg-opacity-80 md:py-6"
       >
-        <p class="ml-auto mr-auto">オンラインマルシェ事業</p>
+        <p class="mx-auto">オンラインマルシェ事業</p>
         <div class="mt-1.5 md:mt-3">
           <svg
             width="16"
@@ -45,9 +45,9 @@ useSeoMeta({
       </a>
       <a
         href="#market-development"
-        class="flex justify-between flex-row w-full bg-primary text-white rounded-full py-4 md:py-6 px-10 hover:bg-opacity-80 md:tracing-[2.4px] tracking-[1.6px]"
+        class="md:tracing-[2.4px] flex w-full flex-row justify-between rounded-full bg-primary px-10 py-4 tracking-[1.6px] text-white hover:bg-opacity-80 md:py-6"
       >
-        <p class="ml-auto mr-auto">販路開拓支援事業</p>
+        <p class="mx-auto">販路開拓支援事業</p>
         <div class="mt-1.5 md:mt-3">
           <svg
             width="16"
@@ -66,9 +66,9 @@ useSeoMeta({
       </a>
       <a
         href="#lossnax"
-        class="flex justify-between flex-row w-full bg-primary text-white rounded-full py-4 md:py-6 px-10 text-center hover:bg-opacity-80 md:tracing-[2.4px] tracking-[1.6px]"
+        class="md:tracing-[2.4px] flex w-full flex-row justify-between rounded-full bg-primary px-10 py-4 text-center tracking-[1.6px] text-white hover:bg-opacity-80 md:py-6"
       >
-        <p class="ml-auto mr-auto">フードロス対策事業</p>
+        <p class="mx-auto">フードロス対策事業</p>
         <div class="mt-1.5 md:mt-3">
           <svg
             width="16"
@@ -87,9 +87,9 @@ useSeoMeta({
       </a>
       <a
         href="#agriculture"
-        class="flex justify-between flex-row w-full bg-primary text-white rounded-full py-4 md:py-6 px-10 text-center hover:bg-opacity-80 md:tracing-[2.4px] tracking-[1.6px]"
+        class="md:tracing-[2.4px] flex w-full flex-row justify-between rounded-full bg-primary px-10 py-4 text-center tracking-[1.6px] text-white hover:bg-opacity-80 md:py-6"
       >
-        <p class="ml-auto mr-auto">農業事業</p>
+        <p class="mx-auto">農業事業</p>
         <div class="mt-1.5 md:mt-3">
           <svg
             width="16"
@@ -108,7 +108,7 @@ useSeoMeta({
       </a>
     </div>
 
-    <div class="flex flex-col lg:gap-[120px] gap-[80px]">
+    <div class="flex flex-col gap-[80px] lg:gap-[120px]">
       <services-the-furumaru id="furumaru" />
       <services-the-market-development id="market-development" />
       <services-the-loss-nax id="lossnax" />
