@@ -14,27 +14,28 @@ const currentPath = computed<string>(() => {
   }
 })
 
-const { data } = await useAsyncData('article', () => {
-  return queryContent('news')
+const prevPath = ref<string>('')
+const nextPath = ref<string>('')
+
+const fetchSurround = async (path: string) => {
+  const data = await queryContent('news')
     .only('_path')
-    .findSurround(`/news/${currentPath.value}`)
+    .findSurround(`/news/${path}`)
+
+  prevPath.value = data[0]?._path || ''
+  nextPath.value = data[1]?._path || ''
+}
+
+await useAsyncData('article', () => {
+  return fetchSurround(currentPath.value)
 })
 
-const prevPath = computed(() => {
-  if (data.value) {
-    return data.value[0]?._path || ''
-  } else {
-    return ''
-  }
-})
-
-const nextPath = computed(() => {
-  if (data.value) {
-    return data.value[1]?._path || ''
-  } else {
-    return ''
-  }
-})
+watch(
+  () => route.params.slug,
+  () => {
+    fetchSurround(currentPath.value)
+  },
+)
 </script>
 
 <template>
