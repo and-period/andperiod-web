@@ -1,12 +1,12 @@
 <script setup lang="ts">
 interface Props {
-  imgSrc: string;
-  publishAt: string;
-  tag: string;
-  title: string;
+  imgSrc: string
+  publishAt: string
+  tag: string
+  title: string
 }
 
-defineProps<Props>();
+defineProps<Props>()
 </script>
 
 <template>

@@ -3,7 +3,7 @@ useSeoMeta({
   title: 'サービスについて - 株式会社アンドピリオド and period',
   description:
     '株式会社アンドピリオド（and period）では「オンラインマルシェ事業」、「販路開拓支援事業」、「フードロス対策事業」、「農業事業」の4つの領域でサービスを展開しています。',
-});
+})
 </script>
 
 <template>

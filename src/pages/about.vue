@@ -2,7 +2,7 @@
 useSeoMeta({
   title: '会社概要 - 株式会社アンドピリオド and period',
   description: '株式会社アンドピリオド（and period）の会社概要です。',
-});
+})
 
 const ABOUT_US_ITEMS = [
   { key: '会社名', value: '株式会社アンドピリオド' },
@@ -15,7 +15,7 @@ const ABOUT_US_ITEMS = [
     key: '事業内容',
     value: 'ライブコマース・フードロス・卸売・農業・Eコマース',
   },
-];
+]
 
 const BOARD_MEMBERS = [
   {
@@ -36,7 +36,7 @@ const BOARD_MEMBERS = [
     romanizedName: 'Kenichi Takemoto',
     imgSrc: '/img/about/members/3.jpg',
   },
-];
+]
 </script>
 
 <template>

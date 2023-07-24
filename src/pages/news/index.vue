@@ -1,50 +1,50 @@
 <script setup lang="ts">
 useSeoMeta({
   title: 'ニュース一覧 - 株式会社アンドピリオド and period',
-});
+})
 
-const PER_PAGE_ITEM = 9;
-const currentPage = ref<number>(1);
+const PER_PAGE_ITEM = 9
+const currentPage = ref<number>(1)
 
 const { data: allArticles } = await useAsyncData('total', () => {
-  return queryContent('/news').find();
-});
+  return queryContent('/news').find()
+})
 
 const total = computed<number>(() => {
   if (allArticles.value) {
-    return allArticles.value?.length;
+    return allArticles.value?.length
   } else {
-    return 0;
+    return 0
   }
-});
+})
 
 const totalPageCount = computed<number>(() => {
-  return Math.ceil(total.value / PER_PAGE_ITEM);
-});
+  return Math.ceil(total.value / PER_PAGE_ITEM)
+})
 
 const handleClickPrevButton = () => {
-  currentPage.value -= 1;
-};
+  currentPage.value -= 1
+}
 
 const handleClickPageButton = (page: number) => {
-  currentPage.value = page;
-};
+  currentPage.value = page
+}
 
 const handleClickNextButton = () => {
-  currentPage.value += 1;
-};
+  currentPage.value += 1
+}
 
 const { data: articles, refresh } = await useAsyncData('news', () => {
   return queryContent('/news')
     .sort({ publishAt: -1 })
     .limit(PER_PAGE_ITEM)
     .skip(PER_PAGE_ITEM * (currentPage.value - 1))
-    .find();
-});
+    .find()
+})
 
 watch(currentPage, () => {
-  refresh();
-});
+  refresh()
+})
 </script>
 
 <template>

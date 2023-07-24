@@ -1,12 +1,12 @@
-import { SitemapStream, streamToPromise } from 'sitemap';
-import { defineEventHandler } from 'h3';
-import { serverQueryContent } from '#content/server';
+import { SitemapStream, streamToPromise } from 'sitemap'
+import { defineEventHandler } from 'h3'
+import { serverQueryContent } from '#content/server'
 
 export default defineEventHandler(async (event) => {
-  const docs = await serverQueryContent(event).find();
+  const docs = await serverQueryContent(event).find()
   const sitemap = new SitemapStream({
     hostname: 'https://www.and-period.co.jp/',
-  });
+  })
 
   const pages = [
     { url: '/' },
@@ -14,19 +14,19 @@ export default defineEventHandler(async (event) => {
     { url: '/contact' },
     { url: '/news' },
     { url: '/services' },
-  ];
+  ]
 
   for (const page of pages) {
-    sitemap.write({ ...page });
+    sitemap.write({ ...page })
   }
 
   for (const doc of docs) {
     sitemap.write({
       url: doc._path,
       changefreq: 'monthly',
-    });
+    })
   }
-  sitemap.end();
+  sitemap.end()
 
-  return streamToPromise(sitemap);
-});
+  return streamToPromise(sitemap)
+})

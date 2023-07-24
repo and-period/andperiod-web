@@ -1,16 +1,16 @@
 <script setup lang="ts">
 interface Props {
-  isOpen: boolean;
+  isOpen: boolean
 }
 
-defineProps<Props>();
+defineProps<Props>()
 
 interface Emits {
-  (e: 'open'): void;
-  (e: 'close'): void;
+  (e: 'open'): void
+  (e: 'close'): void
 }
 
-const emits = defineEmits<Emits>();
+const emits = defineEmits<Emits>()
 
 const linkItems = [
   {
@@ -33,15 +33,15 @@ const linkItems = [
     subTitle: 'Contact',
     to: '/contact',
   },
-];
+]
 
 const handleClick = () => {
-  emits('open');
-};
+  emits('open')
+}
 
 const closeMenu = () => {
-  emits('close');
-};
+  emits('close')
+}
 </script>
 
 <template>

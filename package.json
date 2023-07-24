@@ -8,7 +8,8 @@
     "preview": "nuxt preview",
     "preview-static": "npx http-server .output/public",
     "postinstall": "nuxt prepare",
-    "lint": "eslint --ext .js,.ts,.vue ."
+    "lint": "eslint --ext .js,.ts,.vue .",
+    "format": "prettier -w **.{ts,vue}"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",

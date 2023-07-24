@@ -33,4 +33,4 @@ export default defineNuxtConfig({
       routes: ['/sitemap.xml'],
     },
   },
-});
+})

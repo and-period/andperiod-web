@@ -1,15 +1,15 @@
 <script setup lang="ts">
 interface Props {
-  color: 'primary' | 'white';
+  color: 'primary' | 'white'
 }
 
 const props = withDefaults(defineProps<Props>(), {
   color: 'primary',
-});
+})
 
 const fillColor = computed<string>(() => {
-  return props.color === 'primary' ? '#64C4D7' : '#FFFFFF';
-});
+  return props.color === 'primary' ? '#64C4D7' : '#FFFFFF'
+})
 </script>
 
 <template>

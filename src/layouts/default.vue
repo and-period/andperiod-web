@@ -1,13 +1,13 @@
 <script setup lang="ts">
-const isOpen = ref<boolean>(false);
+const isOpen = ref<boolean>(false)
 
 const handleOpenMenu = () => {
-  isOpen.value = !isOpen.value;
-};
+  isOpen.value = !isOpen.value
+}
 
 const handleCloseMenu = () => {
-  isOpen.value = false;
-};
+  isOpen.value = false
+}
 </script>
 
 <template>

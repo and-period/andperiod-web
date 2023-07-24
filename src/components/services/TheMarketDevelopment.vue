@@ -42,9 +42,7 @@
       target="_blank"
       class="flex w-full max-w-[320px] justify-between rounded-full bg-primary px-8 py-3 text-center font-outfit text-2xl text-white"
     >
-      <p class="mx-auto tracking-[1.6px] md:tracking-[2px]">
-        Product Site
-      </p>
+      <p class="mx-auto tracking-[1.6px] md:tracking-[2px]">Product Site</p>
       <svg
         width="20"
         height="30"

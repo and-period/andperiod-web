@@ -1,25 +1,25 @@
 <script setup lang="ts">
-import { ContactRequest } from '~~/types/props';
+import { ContactRequest } from '~~/types/props'
 
 interface Props {
-  formData: ContactRequest;
+  formData: ContactRequest
 }
 
-const props = defineProps<Props>();
+const props = defineProps<Props>()
 
 const emit = defineEmits<{
-  (e: 'update:form-data', formData: ContactRequest): void;
-  (e: 'submit'): void;
-}>();
+  (e: 'update:form-data', formData: ContactRequest): void
+  (e: 'submit'): void
+}>()
 
 const formDataValue = computed({
   get: (): ContactRequest => props.formData,
   set: (formData: ContactRequest): void => emit('update:form-data', formData),
-});
+})
 
 const onSubmit = (): void => {
-  emit('submit');
-};
+  emit('submit')
+}
 </script>
 
 <template>

@@ -49,7 +49,9 @@
             >
               1. 調査
             </p>
-            <p class="absolute top-[155px] px-6 text-base leading-8 tracking-[1.6px]">
+            <p
+              class="absolute top-[155px] px-6 text-base leading-8 tracking-[1.6px]"
+            >
               生産者の方のお困りごと（使い道のある食材を加工過程で大量に廃棄している、天候の影響で大量の農作物を抱えてしまった等）を拾い上げます。
             </p>
           </div>
@@ -66,7 +68,9 @@
             >
               2. 企画
             </p>
-            <p class="absolute top-[155px] px-6 text-base leading-8 tracking-[1.6px]">
+            <p
+              class="absolute top-[155px] px-6 text-base leading-8 tracking-[1.6px]"
+            >
               生産者の収入を増やすことを目的とし、廃棄するはずだった食材を使って主力商品のブランド価値が上がっていくような新しい商品の企画をします。
             </p>
           </div>
@@ -83,7 +87,9 @@
             >
               3. 加工
             </p>
-            <p class="absolute top-[155px] px-6 text-base leading-8 tracking-[1.6px]">
+            <p
+              class="absolute top-[155px] px-6 text-base leading-8 tracking-[1.6px]"
+            >
               配送料や加工料などの製造原価を踏まえて実現可能な加工会社を探し、試作の製造や試食試飲といった企画商品の製品化をサポートします。
             </p>
           </div>
@@ -100,7 +106,9 @@
             >
               4. 販売
             </p>
-            <p class="absolute top-[155px] px-6 text-base leading-8 tracking-[1.6px]">
+            <p
+              class="absolute top-[155px] px-6 text-base leading-8 tracking-[1.6px]"
+            >
               広告やECサイト、SNSを駆使したマーケティング、豊富なノウハウから最適な販売先の選定や営業方法など販売戦略の支援をします。
             </p>
           </div>

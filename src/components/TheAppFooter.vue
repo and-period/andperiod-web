@@ -20,7 +20,7 @@ const linkItems = [
     title: 'プライバシーポリシー',
     to: '/privacy',
   },
-];
+]
 </script>
 
 <template>
