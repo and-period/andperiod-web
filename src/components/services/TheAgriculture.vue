@@ -31,7 +31,7 @@
     </div>
 
     <a
-      href="https://www.kamijimafarm.com/"
+      href="https://www.hitofusa.and-period.co.jp/"
       target="_blank"
       class="flex w-full max-w-[320px] justify-between rounded-full bg-primary px-8 py-3 text-center font-outfit text-2xl text-white"
     >
