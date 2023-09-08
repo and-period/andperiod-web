@@ -16,7 +16,8 @@
             運営する大崎上島のオンラインショップ「瀬戸内大崎上島農園」では、自社で栽培したレモンだけでなく大崎上島の様々な特産品を販売しておりました。
           </p>
           <p>
-            ※ 2023年からは、「一房の彩り」として全国の生産者の品物を販売する産直ECサイトとしてリニューアルオープンしました。
+            ※
+            2023年からは、「一房の彩り」として全国の生産者の品物を販売する産直ECサイトとしてリニューアルオープンしました。
           </p>
         </div>
       </div>
@@ -33,9 +34,10 @@
     <a
       href="https://www.hitofusa.and-period.co.jp/"
       target="_blank"
+      rel="noreferrer noopener"
       class="flex w-full max-w-[320px] justify-between rounded-full bg-primary px-8 py-3 text-center font-outfit text-2xl text-white"
     >
-      <p class="mt mx-auto tracking-[1.6px] md:tracking-[2px]">Service Site</p>
+      <p class="mx-auto tracking-[1.6px] md:tracking-[2px]">Service Site</p>
       <svg
         width="20"
         height="30"
