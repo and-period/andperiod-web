@@ -6,9 +6,9 @@ useSeoMeta({
 
 const ABOUT_US_ITEMS = [
   { key: '会社名', value: '株式会社アンドピリオド' },
-  { key: '設立年月日', value: '2019年8月1日' },
+  { key: '設立年月日', value: '2022年7月1日' },
   { key: '本社所在地', value: '広島県豊田郡大崎上島町中野5748番地2' },
-  { key: '資本金', value: '4,865千円' },
+  { key: '資本金', value: '5,300千円' },
   { key: '代表者', value: '代表取締役社長 藤中拓弥' },
   { key: '従業員数', value: '10名' },
   {
