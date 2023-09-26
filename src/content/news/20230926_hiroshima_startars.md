@@ -16,4 +16,4 @@ thumbnailUrl: '/img/news/2023_0926/thumbnail.png'
 
 弊社は今後も地方の課題解決を目指し、さらなる事業展開を進めてまいります。今回の掲載を機に、多くの皆様に弊社の取り組みを知っていただければ幸いです。
 
-・ 関連 URL： https://www.and-period.co.jp/news/20230926_hiroshima_startars
+・ 関連 URL： https://hiroshima-starters.com/syoukai/post_129.html
