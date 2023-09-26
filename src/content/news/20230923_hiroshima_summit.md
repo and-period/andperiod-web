@@ -1,6 +1,6 @@
 ---
 title: '「おいしい！広島」第3回 試食商談会出展についてのお知らせ'
-description: '「「おいしい！広島」第3回 試食商談会出展についてのお知らせ'
+description: '「おいしい！広島」第3回 試食商談会出展についてのお知らせ'
 tag: 'お知らせ'
 publishAt: '2023.09.23'
 thumbnailUrl: '/img/news/2023_0923/thumbnail.png'
@@ -18,6 +18,5 @@ thumbnailUrl: '/img/news/2023_0923/thumbnail.png'
 場所：広島県立広島産業会館東展示館第1展示場（広島市南区比治山本町 12-18）
 
 私たちのブースにお立ち寄りいただけることを心よりお待ちしております。この機会に、株式会社アンドピリオドの「グリーンレモン」の魅力をぜひご堪能ください。
-
 
 ・ 関連 URL： https://www.pref.hiroshima.lg.jp/soshiki/83/g7-macchingu-shoudankai3.html
