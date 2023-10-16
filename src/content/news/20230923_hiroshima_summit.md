@@ -19,4 +19,4 @@ thumbnailUrl: '/img/news/2023_0923/thumbnail.png'
 
 私たちのブースにお立ち寄りいただけることを心よりお待ちしております。この機会に、株式会社アンドピリオドの「グリーンレモン」の魅力をぜひご堪能ください。
 
-・ 関連 URL： https://hiroshima-starters.com/syoukai/post_129.html
+・ 関連 URL： https://www.foods-ch.com/event/ev_1696473968104/
