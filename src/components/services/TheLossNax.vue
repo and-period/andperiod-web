@@ -142,7 +142,7 @@
     </div>
 
     <a
-      href="https://olibio.and-period.co.jp/"
+      href="https://olibio.jp/"
       target="_blank"
       rel="noreferrer noopener"
       class="flex w-full max-w-[320px] justify-between rounded-full bg-primary px-8 py-3 text-center font-outfit text-2xl text-white"
