@@ -3,7 +3,7 @@ useSeoMeta({
   title: 'ニュース一覧 - 株式会社アンドピリオド and period',
 })
 
-const PER_PAGE_ITEM = 9
+const PER_PAGE_ITEM = 18
 const currentPage = ref<number>(1)
 
 const { data: allArticles } = await useAsyncData('total', () => {
