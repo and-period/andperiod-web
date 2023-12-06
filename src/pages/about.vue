@@ -31,9 +31,9 @@ const BOARD_MEMBERS = [
     imgSrc: '/img/about/members/2.jpg',
   },
   {
-    position: '常務取締役 兼 営業本部長',
-    name: '竹本 絢一',
-    romanizedName: 'Kenichi Takemoto',
+    position: '常務取締役 兼 産地統括マネージャー',
+    name: '大嶋 憲人',
+    romanizedName: 'Kento Oshima',
     imgSrc: '/img/about/members/3.jpg',
   },
 ]
