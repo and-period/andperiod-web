@@ -1,12 +1,12 @@
 ---
-title: 'ベンチャーカフェ東京主催のROCKET PITCH NIGHT AUTUMN 2023に祭壇しました'
-description: 'ベンチャーカフェ東京主催のROCKET PITCH NIGHT AUTUMN 2023に祭壇しました'
+title: 'ベンチャーカフェ東京主催のROCKET PITCH NIGHT AUTUMN 2023に登壇しました'
+description: 'ベンチャーカフェ東京主催のROCKET PITCH NIGHT AUTUMN 2023に登壇しました'
 tag: 'お知らせ'
 publishAt: '2023.11.30'
 thumbnailUrl: '/img/news/2023_1105/thumbnail.jpg'
 ---
 
-# ベンチャーカフェ東京主催のROCKET PITCH NIGHT AUTUMN 2023に祭壇しました
+# ベンチャーカフェ東京主催のROCKET PITCH NIGHT AUTUMN 2023に登壇しました
 
 この度、【日本最大級】創業・成長期スタートアップ/起業家の祭典にアンドピリオドが登壇しました。  
 当日は、様々な起業家の人と関わったりすることができて大変刺激的な一日になりました。  
