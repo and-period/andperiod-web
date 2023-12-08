@@ -141,6 +141,17 @@
       </div>
     </div>
 
+    <div class="mb-16">
+      <iframe
+        class="h-[189px] w-[336px] md:h-[315px] md:w-[560px]"
+        src="https://www.youtube.com/embed/PoocFJ1XlFI?si=en0klAhFoicsz-j9"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+
     <a
       href="https://olibio.jp/"
       target="_blank"
