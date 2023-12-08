@@ -143,7 +143,7 @@
 
     <div class="mb-16">
       <iframe
-        class="h-[189px] w-[336px] md:h-[315px] md:w-[560px]"
+        class="h-[176px] w-[313px] md:h-[315px] md:w-[560px]"
         src="https://www.youtube.com/embed/PoocFJ1XlFI?si=en0klAhFoicsz-j9"
         title="YouTube video player"
         frameborder="0"
