@@ -12,7 +12,7 @@ thumbnailUrl: '/img/news/2023_1022/thumbnail.jpg'
 OLIBIO作るうえでは、ユーグレナ社のヤエヤマクロレラを原材料として利用させていただき、共同で開発させることができました。
 そんなこだわりが詰まったOLIBIOは今回、CAMPFIREにてクラウドファンディングをやらせていただき目標金額を達成することができました！
 
-・ OLIBIO CAMPFIRE URL： https://camp-fire.jp/projects/view/689853#menu
+・ OLIBIO CAMPFIRE URL： https://camp-fire.jp/projects/view/689853#menu  
 ・ OLIBIO 販売サイト URL： https://olibio.jp/
 
 ![](/img/news/2023_1022/content.jpg)

@@ -14,7 +14,7 @@ thumbnailUrl: '/img/news/2023_0723/thumbnail.png'
 そんなOLIBIOを、8月よりCAMPFIREにて先行予約販売開始します！  
 是非お手にとって良さを体験していただければと思います。
 
-・ OLIBIO ティザーサイト URL： https://olibio-lp.studio.site/
+・ OLIBIO ティザーサイト URL： https://olibio-lp.studio.site/  
 ・ OLIBIO 販売サイト URL： https://olibio.jp/
 
 ![](/img/news/2023_0723/content.png)
