@@ -13,5 +13,6 @@ OLIBIO作るうえでは、ユーグレナ社のヤエヤマクロレラを原�
 そんなこだわりが詰まったOLIBIOは今回、CAMPFIREにてクラウドファンディングをやらせていただき目標金額を達成することができました！
 
 ・ OLIBIO CAMPFIRE URL： https://camp-fire.jp/projects/view/689853#menu
+・ OLIBIO 販売サイト URL： https://olibio.jp/
 
 ![](/img/news/2023_1022/content.jpg)
