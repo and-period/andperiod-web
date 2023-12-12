@@ -90,12 +90,23 @@
       </div>
     </div>
 
+    <div class="my-16">
+      <iframe
+        class="h-[176px] w-[313px] md:h-[315px] md:w-[560px]"
+        src="https://www.youtube.com/embed/Tq5WNMMLcqM?si=DDhJKNCMpxYagrcG"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+
     <a
-      href="#"
-      aria-disabled
-      class="bg-gray pointer-events-none mt-[80px] block w-full max-w-[320px] rounded-full px-8 py-3 text-center font-outfit text-2xl text-white md:mt-[106px]"
+      target="_blank"
+      rel="noreferrer noopener"
+      class="bg-gray flex w-full max-w-[320px] justify-between rounded-full bg-slate-400 px-8 py-3 text-center font-outfit text-2xl text-white"
     >
-      coming soon …
+      <p class="mx-auto tracking-[1.6px] md:tracking-[2px]">Coming Soon...</p>
     </a>
   </services-the-service-content-box>
 </template>
