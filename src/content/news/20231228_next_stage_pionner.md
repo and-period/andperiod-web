@@ -3,8 +3,7 @@ title: '【中国エリア起業家ピッチ】Next Stage Pionners 2024 に登�
 description: '【中国エリア起業家ピッチ】Next Stage Pionners 2024 に登壇することになりました。'
 tag: 'お知らせ'
 publishAt: '2023.12.28'
-thumbnailUrl: '/img/news/2023_1228/thumbnail
-.png'
+thumbnailUrl: '/img/news/2023_1228/thumbnail.png'
 ---
 
 # 【中国エリア起業家ピッチ】 Next Stage Pionners 2024 に登壇することになりました。
