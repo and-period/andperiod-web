@@ -3,7 +3,7 @@ title: 'ブランドプロデュースラボ様にLOSS NAXの取り組みを紹�
 description: 'ブランドプロデュースラボ様にLOSS NAXの取り組みを紹介していただきました'
 tag: 'お知らせ'
 publishAt: '2024.02.24'
-thumbnailUrl: '/img/news/2024_0224/thumbnail.'
+thumbnailUrl: '/img/news/2024_0224/thumbnail.png'
 ---
 
 # ブランドプロデュースラボ様にLOSS NAXの取り組みを紹介していただきました
