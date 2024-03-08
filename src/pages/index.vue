@@ -51,7 +51,7 @@ const { data } = await useAsyncData('index', () => {
         <p
           class="text-base font-medium leading-8 tracking-[1.6px] md:text-xl md:leading-[48px] md:tracking-[2px]"
         >
-          ライブ配信で全国の「ふるさと」を感じながら新しい購買体験が可能となるオンラインマルシェサービス「ふるマル」を中心としたシステム開発事業・販路開拓事業・フードロス対策事業など生産者・消費者双方に寄り添ったサービスの展開を行っています。
+          ディープジャパンと共創する新時代を作る産地直送型映像メディア「ふるマル」を中心としたシステム開発事業・販路開拓事業・フードロス対策事業など生産者・消費者双方に寄り添ったサービスの展開を行っています。
         </p>
         <div class="flex justify-center md:justify-end">
           <nuxt-link

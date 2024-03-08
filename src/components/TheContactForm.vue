@@ -43,8 +43,8 @@ const onSubmit = (): void => {
           <option value="" disabled selected>
             お問い合わせ内容をお選びください
           </option>
-          <option value="オンラインマルシェ事業に関して">
-            オンラインマルシェ事業に関して
+          <option value="産地直送型映像メディア事業に関して">
+            産地直送型映像メディア事業に関して
           </option>
           <option value="販路開拓支援事業に関して">
             販路開拓支援事業に関して

@@ -1,7 +1,7 @@
 <template>
   <services-the-service-content-box
-    title="Online marche"
-    subtitle="オンラインマルシェ事業"
+    title="local media business"
+    subtitle="産地直送型映像メディア事業"
   >
     <div class="flex flex-col items-center gap-y-[56px] md:gap-y-[120px]">
       <div
@@ -13,9 +13,7 @@
         <div class="flex w-full flex-col lg:w-1/2">
           <p
             class="whitespace-pre-wrap text-sm leading-[32px] tracking-[1.4px] md:text-xl md:tracking-[2.0px]"
-            v-text="
-              '生産者のこだわりが\n「伝える」以上に「伝わる」ライブマルシェ'
-            "
+            v-text="'産地直送型映像メディア'"
           />
           <h2
             class="mt-6 text-2xl tracking-[2px] md:text-[32px] md:tracking-[3.2px]"
@@ -32,12 +30,12 @@
           class="order-2 flex w-full flex-col gap-6 font-medium lg:order-1 lg:w-1/2"
         >
           <h2 class="text-xl tracking-[2.0px] md:text-2xl md:tracking-[2.0px]">
-            どこからでもリアルタイムで日本の「食」を体験できる仮想空間の実現
+            ディープジャパンと共創する新時代を作る産地直送型映像メディア
           </h2>
           <span
             class="text-sm leading-8 tracking-[2px] md:text-[16px] md:tracking-[2px]"
           >
-            わたしたちの目指す産直ECの姿は安心して商品を購入できライブコマースを通じてリアルに体験することでお互いの想いを直接感じられるプラットフォームです。ライブマルシェは双方向でのコミュニケーションが図れるので農家さんのこだわりを直接お伝えできるとともに視聴者はライブ中に気になるポイントを質問することで、ワクワク感や納得感を得ながらお買い物をより楽しむことができます。
+            私たちは日本の各地域で脈々と受け継がれる日本の「誇り」と「食」を体感できるメディアを共創する仕組みを整えカラフルかつボーダーレスな日本の未来を目指します。そのために、ボタン1つで産直ECに参入にできること、「種類」「量」は消費者が自由にセレクトできるなどの様々な機能をふるマルで提供しています。
           </span>
         </div>
         <img
@@ -55,12 +53,12 @@
         />
         <div class="flex w-full flex-col gap-6 font-medium lg:w-1/2">
           <h2 class="text-xl tracking-[2.0px] md:text-2xl md:tracking-[2.0px]">
-            現地の空気感をオンタイムで味わう非日常体験
+            スマホ一台で食だけでなくコトを体験できる新時代のローカル放送局
           </h2>
           <p
             class="whitespace-pre-wrap text-sm leading-8 tracking-[2px] md:text-[16px] md:tracking-[2px]"
             v-text="
-              'ライブマルシェを通じて自分がその場で気に入った商品を購入できるという疑似体験によって臨場感が味わえるので、マルシェならではのワクワクや充実感を感じることができます。\nまた、既存システムにはない新しい購買体験（ピッキング機能）は実際にマルシェに赴いたかのようなお買い物の楽しさをリアルに再現できます。'
+              '私たちは、その地域にしかない 「人」×「物」×「場所」×「生業」が織りなす「出来事」こそ地方の魅力であると考えています。なので、産直ECも地方創生も「モノ」だけでなく「コト」を体験することが大事だと考えています。ふるマルはそんな地域にしかない出来事を体験できるプラットフォームです。'
             "
           />
         </div>

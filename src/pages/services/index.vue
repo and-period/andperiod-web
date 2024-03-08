@@ -2,7 +2,7 @@
 useSeoMeta({
   title: 'サービスについて - 株式会社アンドピリオド and period',
   description:
-    '株式会社アンドピリオド（and period）では「オンラインマルシェ事業」、「販路開拓支援事業」、「フードロス対策事業」、「農業事業」の4つの領域でサービスを展開しています。',
+    '株式会社アンドピリオド（and period）では「産地直送型映像メディア事業」、「販路開拓支援事業」、「フードロス対策事業」、「農業事業」の4つの領域でサービスを展開しています。',
 })
 </script>
 
@@ -26,7 +26,7 @@ useSeoMeta({
         href="#furumaru"
         class="md:tracing-[2.4px] flex w-full flex-row justify-between rounded-full bg-primary px-10 py-4 tracking-[1.6px] text-white hover:bg-opacity-80 md:py-6"
       >
-        <p class="mx-auto">オンラインマルシェ事業</p>
+        <p class="mx-auto">産地直送型映像メディア事業</p>
         <div class="mt-1.5 md:mt-3">
           <svg
             width="16"
