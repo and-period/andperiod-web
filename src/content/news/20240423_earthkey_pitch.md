@@ -1,7 +1,7 @@
 ---
 title: 'earthkey pitch登壇のお知らせ'
 description: 'earthkey pitch登壇のお知らせ'
-tag: 'リリース'
+tag: 'お知らせ'
 publishAt: '2024.04.23'
 thumbnailUrl: '/img/news/2024_0423/thumbnail.PNG'
 ---
