@@ -153,12 +153,12 @@
     </div>
 
     <a
-      href="https://olibio.jp/"
+      href="https://olibio-lp.studio.site/"
       target="_blank"
       rel="noreferrer noopener"
       class="flex w-full max-w-[320px] justify-between rounded-full bg-primary px-8 py-3 text-center font-outfit text-2xl text-white"
     >
-      <p class="mx-auto tracking-[1.6px] md:tracking-[2px]">Product Site</p>
+      <p class="mx-auto tracking-[1.6px] md:tracking-[2px]">OLIBIO Site</p>
       <svg
         width="20"
         height="30"
@@ -173,5 +173,110 @@
         />
       </svg>
     </a>
+
+    <div
+      class="mt-10 flex w-full flex-col items-center gap-y-[40px] font-medium md:mt-[80px] md:gap-y-[80px]"
+    >
+      <div class="w-full">
+        <div
+          class="flex w-full flex-col items-center gap-x-12 gap-y-10 lg:flex-row"
+        >
+          <div class="order-2 flex w-full flex-col gap-6 lg:order-1 lg:w-1/2">
+            <h2 class="leading-8 md:text-[24px] md:tracking-[2px]">
+              オリーブの搾りかすと、濃厚な芳香を漂わせるポンカンの葉・ピールを調合した「YORI
+              GIN」
+            </h2>
+            <p
+              class="flex flex-col gap-4 text-[14px] leading-8 tracking-[2.0px] md:text-[16px] md:leading-10 md:tracking-[2px]"
+            >
+              広島県の南端、温暖な気候と豊かな風土に恵まれた大崎上島町。瀬戸内の大地が育んだオリーブの搾りかすと、濃厚な芳香を漂わせるポンカンの葉・ピールを調合しました。香りは柑橘の強い爽やかさ、口に含むとオリーブの青さが広がり、マティーニのようなニュアンス。
+            </p>
+          </div>
+          <div class="order-1 w-full lg:order-2 lg:w-1/2">
+            <img
+              src="/img/services/loss-nax/2.jpg"
+              alt="OLIBIOの紹介"
+              class="m-auto object-contain md:h-[320px]"
+            />
+          </div>
+        </div>
+      </div>
+      <a
+        href="https://shop.yori-gin.com/items/83448176"
+        target="_blank"
+        rel="noreferrer noopener"
+        class="flex w-full max-w-[320px] justify-between rounded-full bg-primary px-8 py-3 text-center font-outfit text-2xl text-white"
+      >
+        <p class="mx-auto tracking-[1.6px] md:tracking-[2px]">YORIGIN Site</p>
+        <svg
+          width="20"
+          height="30"
+          viewBox="0 0 20 13"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            id="Arrow 1"
+            d="M0.807542 17.2929C0.417017 17.6834 0.417017 18.3166 0.807542 18.7071C1.19807 19.0976 1.83123 19.0976 2.22176 18.7071L0.807542 17.2929ZM19.4852 1.02944C19.4852 0.477153 19.0375 0.0294373 18.4852 0.029437L9.48521 0.0294378C8.93293 0.0294375 8.48521 0.477153 8.48521 1.02944C8.48521 1.58172 8.93293 2.02944 9.48521 2.02944L17.4852 2.02944L17.4852 10.0294C17.4852 10.5817 17.9329 11.0294 18.4852 11.0294C19.0375 11.0294 19.4852 10.5817 19.4852 10.0294L19.4852 1.02944ZM2.22176 18.7071L19.1923 1.73654L17.7781 0.322331L0.807542 17.2929L2.22176 18.7071Z"
+            fill="white"
+          />
+        </svg>
+      </a>
+    </div>
+    <div
+      class="mt-10 flex w-full flex-col items-center gap-y-[40px] font-medium md:mt-[80px] md:gap-y-[80px]"
+    >
+      <div class="w-full">
+        <div
+          class="flex w-full flex-col items-center gap-x-12 gap-y-10 lg:flex-row"
+        >
+          <div class="order-2 flex w-full flex-col gap-6 lg:order-1 lg:w-1/2">
+            <h2 class="leading-8 md:text-[24px] md:tracking-[2px]">
+              〚The Dalemain World Marmalade Awards
+              2024〛大崎上島みかんとアールグレイ
+            </h2>
+            <p
+              class="flex flex-col gap-4 text-[14px] leading-8 tracking-[2.0px] md:text-[16px] md:leading-10 md:tracking-[2px]"
+            >
+              〚The Dalemain World Marmalade Awards
+              2024〛（イギリス・ダルメイン）部門にて銀賞/受賞。柑橘の栽培が盛んな広島県大崎上島で
+              自然農法栽培しているみかんを使用 2023年・雹に見舞われたが
+              糖度が高く、瑞々しいみかんを
+              アップサイクルし地域へも貢献するために開発されました。
+              果皮・果汁・茶葉・洋酒を加えるタイミングを見極め
+              ひとつひとつの素材が活きるように全行程を手作業で行っています。
+            </p>
+          </div>
+          <div class="order-1 w-full lg:order-2 lg:w-1/2">
+            <img
+              src="/img/services/loss-nax/3.jpg"
+              alt="OLIBIOの紹介"
+              class="m-auto object-contain md:h-[320px]"
+            />
+          </div>
+        </div>
+      </div>
+      <a
+        href="https://ito-jam-oyatsu.stores.jp/items/65a76dc9dba43702be646d1f"
+        target="_blank"
+        rel="noreferrer noopener"
+        class="flex w-full max-w-[320px] justify-between rounded-full bg-primary px-8 py-3 text-center font-outfit text-2xl text-white"
+      >
+        <p class="mx-auto tracking-[1.6px] md:tracking-[2px]">ITO Site</p>
+        <svg
+          width="20"
+          height="30"
+          viewBox="0 0 20 13"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            id="Arrow 1"
+            d="M0.807542 17.2929C0.417017 17.6834 0.417017 18.3166 0.807542 18.7071C1.19807 19.0976 1.83123 19.0976 2.22176 18.7071L0.807542 17.2929ZM19.4852 1.02944C19.4852 0.477153 19.0375 0.0294373 18.4852 0.029437L9.48521 0.0294378C8.93293 0.0294375 8.48521 0.477153 8.48521 1.02944C8.48521 1.58172 8.93293 2.02944 9.48521 2.02944L17.4852 2.02944L17.4852 10.0294C17.4852 10.5817 17.9329 11.0294 18.4852 11.0294C19.0375 11.0294 19.4852 10.5817 19.4852 10.0294L19.4852 1.02944ZM2.22176 18.7071L19.1923 1.73654L17.7781 0.322331L0.807542 17.2929L2.22176 18.7071Z"
+            fill="white"
+          />
+        </svg>
+      </a>
+    </div>
   </services-the-service-content-box>
 </template>
