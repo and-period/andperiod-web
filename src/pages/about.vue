@@ -102,11 +102,13 @@ const BOARD_MEMBERS = [
         </dl>
       </div>
 
+      <!--
       <img
         src="/img/about/1.jpg"
         alt="株式会社アンドピリオドのメンバー写真"
         class="mt-10 w-full"
       />
+    -->
     </services-the-service-content-box>
   </div>
 </template>
