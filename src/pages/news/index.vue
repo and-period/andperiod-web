@@ -22,12 +22,52 @@ const totalPageCount = computed<number>(() => {
   return Math.ceil(total.value / PER_PAGE_ITEM)
 })
 
+const pages = computed<string[]>(() => {
+  const pages: string[] = []
+  // ページ数が3以下の場合は全て表示
+  if (totalPageCount.value <= 3) {
+    for (let i = 1; i <= totalPageCount.value; i++) {
+      pages.push(i.toString())
+    }
+    return pages
+  }
+
+  // 1ページ目は常に表示
+  pages.push('1')
+
+  // 現在のページが3よりも大きい場合は三点リーダーを表示
+  if (currentPage.value > 3) {
+    pages.push('...')
+  }
+
+  // 現在のページの前後2ページを表示
+  const start = Math.max(2, currentPage.value - 1)
+  const end = Math.min(totalPageCount.value - 1, currentPage.value + 1)
+  for (let i = start; i <= end; i++) {
+    pages.push(i.toString())
+  }
+
+  // 現在のページが最後から3ページ目よりも小さい場合は三点リーダーを表示
+  if (currentPage.value < totalPageCount.value - 2) {
+    pages.push('...')
+  }
+
+  // 最後のページを表示
+  pages.push(totalPageCount.value.toString())
+
+  return pages
+})
+
 const handleClickPrevButton = () => {
   currentPage.value -= 1
 }
 
-const handleClickPageButton = (page: number) => {
-  currentPage.value = page
+const handleClickPageButton = (page: string) => {
+  if (page === '...') {
+    return
+  }
+
+  currentPage.value = Number(page)
 }
 
 const handleClickNextButton = () => {
@@ -73,7 +113,7 @@ watch(currentPage, () => {
       </nuxt-link>
     </div>
 
-    <div class="my-10 flex items-center justify-center gap-[50px]">
+    <div class="my-10 flex items-center justify-center gap-4 md:gap-[50px]">
       <button
         :class="{
           'h-10 w-10 px-4 py-2': true,
@@ -86,13 +126,14 @@ watch(currentPage, () => {
         ←
       </button>
       <button
-        v-for="page in totalPageCount"
+        v-for="page in pages"
         :key="page"
         :class="{
           'h-10 w-10 px-4 py-2': true,
-          'rounded-full bg-primary text-white': currentPage === page,
-          'text-primary': currentPage !== page,
+          'rounded-full bg-primary text-white': currentPage.toString() === page,
+          'text-primary': currentPage.toString() !== page,
         }"
+        :disabled="page === '...'"
         @click="handleClickPageButton(page)"
       >
         {{ page }}
