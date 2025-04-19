@@ -38,8 +38,8 @@ const { data } = await useAsyncData('index', () => {
         class="md:tracing-[2.4px] flex w-full flex-row justify-between rounded-full bg-primary px-10 py-4 tracking-[1.6px] text-white hover:bg-opacity-80 md:py-6"
         to="/news/20250328_ecrowd"
       >
-        <p class="font-medium">
-          株式投資型クラウドファンディングによる資金調達実施！事業に共感いただける仲間を募集！
+        <p class="mx-auto font-medium">
+          株式投資型クラウドファンディングによる資金調達目標金額達成！
         </p>
       </nuxt-link>
     </div>
