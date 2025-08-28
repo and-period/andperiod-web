@@ -33,16 +33,6 @@ const { data } = await useAsyncData('index', () => {
         </div>
       </div>
     </div>
-    <div class="text-base md:text-2xl">
-      <nuxt-link
-        class="md:tracing-[2.4px] flex w-full flex-row justify-between rounded-full bg-primary px-10 py-4 tracking-[1.6px] text-white hover:bg-opacity-80 md:py-6"
-        to="/news/20250328_ecrowd"
-      >
-        <p class="mx-auto font-medium">
-          株式投資型クラウドファンディングによる資金調達目標金額達成！
-        </p>
-      </nuxt-link>
-    </div>
 
     <div
       class="flex w-full flex-col items-center gap-x-20 gap-y-10 rounded-3xl bg-white px-6 py-8 md:px-24 md:py-20 lg:flex-row"
