@@ -9,6 +9,12 @@ export default defineNuxtConfig({
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
       title: '株式会社アンドピリオド and period',
+      link: [
+        {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Zen+Kaku+Gothic+New:wght@400;500&display=swap',
+        },
+      ],
       meta: [
         {
           name: 'theme-color',
@@ -37,18 +43,10 @@ export default defineNuxtConfig({
     prerender: {
       routes: ['/sitemap.xml'],
     },
-    awsAmplify: {
-      runtime: 'nodejs20.x',
-    },
   },
   vite: {
     optimizeDeps: {
       exclude: ['@vitejs/plugin-vue'],
-    },
-    build: {
-      rollupOptions: {
-        external: [/^\/img\//],
-      },
     },
   },
 })
