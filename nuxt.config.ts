@@ -29,6 +29,7 @@ export default defineNuxtConfig({
   srcDir: 'src',
   modules: ['@nuxtjs/tailwindcss', '@nuxt/content'],
   nitro: {
+    preset: 'aws-amplify',
     prerender: {
       routes: ['/sitemap.xml'],
     },
