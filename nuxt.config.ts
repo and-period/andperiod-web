@@ -1,6 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityVersion: 4,
+  future: {
+    compatibilityVersion: 4,
+  },
+  compatibilityDate: '2025-09-25',
   app: {
     head: {
       charset: 'utf-8',
@@ -40,12 +43,12 @@ export default defineNuxtConfig({
   },
   vite: {
     optimizeDeps: {
-      exclude: ['@vitejs/plugin-vue']
+      exclude: ['@vitejs/plugin-vue'],
     },
     build: {
       rollupOptions: {
-        external: [/^\/img\//]
-      }
-    }
+        external: [/^\/img\//],
+      },
+    },
   },
 })
