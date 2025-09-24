@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  compatibilityVersion: 4,
   app: {
     head: {
       charset: 'utf-8',
@@ -36,5 +37,15 @@ export default defineNuxtConfig({
     awsAmplify: {
       runtime: 'nodejs20.x',
     },
+  },
+  vite: {
+    optimizeDeps: {
+      exclude: ['@vitejs/plugin-vue']
+    },
+    build: {
+      rollupOptions: {
+        external: [/^\/img\//]
+      }
+    }
   },
 })

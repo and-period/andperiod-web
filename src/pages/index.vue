@@ -8,16 +8,12 @@ const { data } = await useAsyncData('index', () => {
   <div class="mb-10 flex w-full flex-col gap-10 px-6 pb-6 2xl:px-0">
     <div>
       <div class="relative mx-auto max-w-max">
-        <picture>
-          <source media="(max-width:425px)" srcset="/img/top_sp.jpg" />
-          <img
-            class="min-h-[560px] rounded-3xl object-cover"
-            srcset=""
-            src="/img/top.jpg"
-            loading="lazy"
-            alt="top page thumbnail"
-          />
-        </picture>
+        <img
+          class="min-h-[560px] rounded-3xl object-cover"
+          src="/img/top.jpg"
+          loading="lazy"
+          alt="top page thumbnail"
+        />
         <div
           class="absolute left-[36px] top-[32px] inline-flex flex-col items-start gap-6 text-[20px] font-medium tracking-[0.75em] text-primary [writing-mode:vertical-rl] lg:left-[200px] lg:top-24 lg:text-[32px] lg:tracking-[.25em]"
         >
