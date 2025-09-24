@@ -32,5 +32,8 @@ export default defineNuxtConfig({
     prerender: {
       routes: ['/sitemap.xml'],
     },
+    awsAmplify: {
+      runtime: 'nodejs20.x',
+    },
   },
 })
