@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ContactRequest } from '~~/types/props'
+import type { ContactRequest } from '~/types/props'
 
 useSeoMeta({
   title: 'お問い合わせ - 株式会社アンドピリオド and period',

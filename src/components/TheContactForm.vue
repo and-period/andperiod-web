@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ContactRequest } from '~~/types/props'
+import type { ContactRequest } from '~/types/props'
 
 interface Props {
   formData: ContactRequest
