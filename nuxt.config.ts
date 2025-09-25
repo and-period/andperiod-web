@@ -4,6 +4,9 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
   compatibilityDate: '2025-09-25',
+  experimental: {
+    payloadExtraction: false,
+  },
   app: {
     head: {
       charset: 'utf-8',
@@ -42,6 +45,12 @@ export default defineNuxtConfig({
     preset: 'aws-amplify',
     prerender: {
       routes: ['/sitemap.xml'],
+      failOnError: false,
+      crawlLinks: false,
+      ignore: ['/api/**'],
+    },
+    experimental: {
+      wasm: false,
     },
   },
   vite: {
