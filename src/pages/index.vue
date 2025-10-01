@@ -15,15 +15,15 @@ const { data } = await useAsyncData('index', () => {
           alt="top page thumbnail"
         />
         <div
-          class="absolute left-[36px] top-[32px] inline-flex flex-col items-start gap-6 text-[20px] font-medium tracking-[0.75em] text-primary [writing-mode:vertical-rl] lg:left-[200px] lg:top-24 lg:text-[32px] lg:tracking-[.25em]"
+          class="absolute left-[36px] top-[32px] isolate inline-flex flex-col items-start gap-6 text-[20px] font-medium tracking-[0.75em] text-primary mix-blend-multiply [writing-mode:vertical-rl] lg:left-[200px] lg:top-24 lg:text-[32px] lg:tracking-[.25em]"
         >
-          <span class="inline-block rounded bg-white py-2 lg:pb-2 lg:pt-4"
-            >継承主体の現在から</span
-          >
-          <span class="inline-block rounded bg-white py-2 lg:pb-2 lg:pt-4"
+          <span class="inline-block rounded py-2 lg:pb-2 lg:pt-4">
+            継承主体の現在から
+          </span>
+          <span class="inline-block rounded py-2 lg:pb-2 lg:pt-4"
             >新たな一次産業を</span
           >
-          <span class="inline-block rounded bg-white py-2 lg:pb-2 lg:pt-4"
+          <span class="inline-block rounded py-2 lg:pb-2 lg:pt-4"
             >ともに創造する未来へ</span
           >
         </div>
