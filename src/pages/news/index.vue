@@ -116,7 +116,7 @@ watch(currentPage, () => {
     <div class="my-10 flex items-center justify-center gap-4 md:gap-[50px]">
       <button
         :class="{
-          'h-10 w-10 px-4 py-2': true,
+          'size-10 px-4 py-2': true,
           'text-primary': currentPage !== 1,
           'opacity-25': currentPage === 1,
         }"
@@ -129,7 +129,7 @@ watch(currentPage, () => {
         v-for="page in pages"
         :key="page"
         :class="{
-          'h-10 w-10 px-4 py-2': true,
+          'size-10 px-4 py-2': true,
           'rounded-full bg-primary text-white': currentPage.toString() === page,
           'text-primary': currentPage.toString() !== page,
         }"
@@ -140,7 +140,7 @@ watch(currentPage, () => {
       </button>
       <button
         :class="{
-          'h-10 w-10 px-4 py-2': true,
+          'size-10 px-4 py-2': true,
           'text-primary': currentPage !== totalPageCount,
           'opacity-25': currentPage === totalPageCount,
         }"

@@ -24,7 +24,7 @@ const handleCloseMenu = () => {
       @close="handleCloseMenu"
     />
     <div class="flex grow justify-center">
-      <div class="w-full max-w-[1200px]">
+      <div class="w-full max-w-screen-2xl">
         <slot />
       </div>
     </div>

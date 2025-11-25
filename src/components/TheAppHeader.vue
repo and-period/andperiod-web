@@ -52,7 +52,7 @@ const closeMenu = () => {
       'bg-primary': isOpen,
     }"
   >
-    <div class="flex max-w-[1200px] grow items-center justify-between">
+    <div class="flex max-w-screen-2xl grow items-center justify-between">
       <nuxt-link to="/" @click="closeMenu">
         <div
           :class="{
@@ -61,7 +61,7 @@ const closeMenu = () => {
           }"
         >
           <the-brand-logo
-            class="h-6 w-6 md:h-10 md:w-10"
+            class="size-6 md:size-10"
             :color="isOpen ? 'white' : 'primary'"
           />
           <the-brand-title
@@ -81,7 +81,7 @@ const closeMenu = () => {
         </nuxt-link>
       </div>
       <div class="lg:hidden">
-        <button class="h-10 w-10" @click="handleClick">
+        <button class="size-10" @click="handleClick">
           <icons-the-bar3-icon v-show="!isOpen" class="text-primary" />
           <icons-the-close-icon v-show="isOpen" class="fill-white text-white" />
         </button>
