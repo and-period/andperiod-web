@@ -2,7 +2,7 @@
 useSeoMeta({
   title: 'サービスについて - 株式会社アンドピリオド and period',
   description:
-    '株式会社アンドピリオド（and period）では「産地直送型映像メディア事業」、「販路開拓支援事業」、「フードロス対策事業」、「農業事業」の4つの領域でサービスを展開しています。',
+    '株式会社アンドピリオド（and period）では「産地直送型映像メディア事業」、「販路開拓支援事業」、「フードロス対策事業」、「農業事業」、「システム開発事業」の5つの領域でサービスを展開しています。',
 })
 </script>
 
@@ -106,6 +106,27 @@ useSeoMeta({
           </svg>
         </div>
       </a>
+      <a
+        href="#system-development"
+        class="md:tracing-[2.4px] flex w-full flex-row justify-between rounded-full bg-primary px-10 py-4 text-center tracking-[1.6px] text-white hover:bg-opacity-80 md:py-6"
+      >
+        <p class="mx-auto">システム開発事業</p>
+        <div class="mt-1.5 md:mt-3">
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              id="Arrow 1"
+              d="M9 1C9 0.447715 8.55228 2.8974e-08 8 0C7.44772 -2.8974e-08 7 0.447715 7 1L9 1ZM7.29289 14.9448C7.68342 15.3354 8.31658 15.3354 8.70711 14.9448L15.0711 8.58087C15.4616 8.19035 15.4616 7.55719 15.0711 7.16666C14.6805 6.77614 14.0474 6.77614 13.6569 7.16666L8 12.8235L2.34315 7.16666C1.95262 6.77614 1.31946 6.77614 0.928932 7.16666C0.538408 7.55718 0.538408 8.19035 0.928932 8.58087L7.29289 14.9448ZM7 1L7 14.2377L9 14.2377L9 1L7 1Z"
+              fill="white"
+            />
+          </svg>
+        </div>
+      </a>
     </div>
 
     <div class="flex flex-col gap-[80px] lg:gap-[120px]">
@@ -113,6 +134,7 @@ useSeoMeta({
       <services-the-market-development id="market-development" />
       <services-the-loss-nax id="lossnax" />
       <services-the-agriculture id="agriculture" />
+      <services-the-system-development id="system-development" />
     </div>
   </div>
 </template>
