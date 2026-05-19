@@ -66,6 +66,7 @@ const BOARD_MEMBERS = [
       </div>
     </div>
 
+    <!-- 
     <services-the-service-content-box title="Board members" subtitle="役員紹介">
       <div class="grid grid-cols-1 gap-x-6 gap-y-10 lg:grid-cols-3">
         <div v-for="(member, i) in BOARD_MEMBERS" :key="i">
@@ -83,7 +84,7 @@ const BOARD_MEMBERS = [
           </div>
         </div>
       </div>
-    </services-the-service-content-box>
+    </services-the-service-content-box> -->
 
     <services-the-service-content-box title="Company" subtitle="会社概要">
       <div
